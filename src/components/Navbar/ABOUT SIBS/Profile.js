@@ -128,7 +128,7 @@ const Profile = () => {
                     of our academic and organisational practices. Our principles
                     include:
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 mx-6 ">
+                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
                     1.{' '}
                     <span className="font-bold">
                       Islamic values and ethics:{' '}
@@ -142,7 +142,7 @@ const Profile = () => {
                     from renowned Islamic business academia and industry experts
                     from around the world.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 mx-6 ">
+                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
                     2. <span className="font-bold">Academic excellence: </span>
                     We strive for academic excellence in all our programs and
                     curricula, ensuring that our graduates are equipped with the
@@ -153,7 +153,7 @@ const Profile = () => {
                     curricula to meet the needs of our students and the
                     industry.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 mx-6 ">
+                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
                     3.{' '}
                     <span className="font-bold">
                       Research and scholarship:{' '}
@@ -165,7 +165,7 @@ const Profile = () => {
                     engage in research that addresses real-world problems and
                     has practical implications for the industry and society.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 mx-6 ">
+                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
                     4.{' '}
                     <span className="font-bold">
                       Diversity and inclusivity:{' '}
@@ -176,7 +176,7 @@ const Profile = () => {
                     supportive learning and working environment that promotes
                     mutual respect, understanding, and inclusivity.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 mx-6 ">
+                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
                     5.{' '}
                     <span className="font-bold">Social responsibility: </span>
                     We are committed to promoting ethical business practices,
