@@ -118,6 +118,7 @@ const Profile = () => {
                 </div>
 
                 {/* sibs Principles */}
+
                 <div className="  ">
                   <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-3">
                     Our 5 Principles:
@@ -128,7 +129,7 @@ const Profile = () => {
                     of our academic and organisational practices. Our principles
                     include:
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
+                  <p className=" lg:px-20  text-justify mt-3  ">
                     1.{' '}
                     <span className="font-bold">
                       Islamic values and ethics:{' '}
@@ -142,7 +143,7 @@ const Profile = () => {
                     from renowned Islamic business academia and industry experts
                     from around the world.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
+                  <p className=" lg:px-20  text-justify mt-3  ">
                     2. <span className="font-bold">Academic excellence: </span>
                     We strive for academic excellence in all our programs and
                     curricula, ensuring that our graduates are equipped with the
@@ -153,7 +154,7 @@ const Profile = () => {
                     curricula to meet the needs of our students and the
                     industry.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
+                  <p className=" lg:px-20  text-justify mt-3  ">
                     3.{' '}
                     <span className="font-bold">
                       Research and scholarship:{' '}
@@ -165,7 +166,7 @@ const Profile = () => {
                     engage in research that addresses real-world problems and
                     has practical implications for the industry and society.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
+                  <p className=" lg:px-20  text-justify mt-3  ">
                     4.{' '}
                     <span className="font-bold">
                       Diversity and inclusivity:{' '}
@@ -176,7 +177,7 @@ const Profile = () => {
                     supportive learning and working environment that promotes
                     mutual respect, understanding, and inclusivity.
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3 ml-6 ">
+                  <p className=" lg:px-20  text-justify mt-3  ">
                     5.{' '}
                     <span className="font-bold">Social responsibility: </span>
                     We are committed to promoting ethical business practices,
@@ -185,6 +186,87 @@ const Profile = () => {
                     importance of these values to our students and faculty and
                     encourage them to be agents of positive change in their
                     communities and workplaces.
+                  </p>
+                </div>
+                {/* Sibs strategy */}
+
+                <div className="  ">
+                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-3">
+                    Our strategy
+                  </h1>
+
+                  <p className=" lg:px-20 px-3 text-justify mt-3 ">
+                    At Sydney Islamic Business School, we are committed to
+                    unlocking the potential of business by developing powerful
+                    ideas, purpose-driven leaders, and a community dedicated to
+                    making a positive impact. Our strategy is focused on the
+                    following key areas:
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    1. <span className="font-bold">Innovative Solutions: </span>
+                    We will be thought leaders who put our ideas into action to
+                    tackle some of the world's most important challenges. We
+                    will conduct rigorous research that informs the most
+                    important conversations in Islamic business and finance,
+                    such as the future of Islamic banking, halal industry, and
+                    entrepreneurship in the world. We will work with leading
+                    companies to apply our ideas and create positive change in
+                    society.
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    2. <span className="font-bold">Ethical Leadership: </span>
+                    We will develop ethical leaders who make a positive
+                    difference. Our action-based learning curricula connect
+                    students to real-world business experiences with Islamic
+                    values and ethics at the core. Our centres of excellence in
+                    leadership and positive organisations allow students to
+                    discover a deep sense of purpose. Our Islamic Business
+                    Incubator will help students launch successful startups that
+                    promote sustainable development.
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    3.{' '}
+                    <span className="font-bold">
+                      Entrepreneurship and Innovation:
+                    </span>
+                    We will encourage entrepreneurship and innovation in Islamic
+                    business and finance. Our Islamic Business Incubator will
+                    provide support for students and alumni who wish to start
+                    their own businesses that promote sustainable development.
+                    We will work with startups, social enterprises, and other
+                    organiaations to drive innovation and support sustainable
+                    growth in the Islamic economy.
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    4. <span className="font-bold">Positive Impact: </span>
+                    We are making important contributions to the global impact
+                    economy. Our community partners with organisations to solve
+                    real-world challenges, generate prosperity, and create a
+                    positive impact. We provide consulting support to small
+                    businesses and non-profits through initiatives that promote
+                    ethical business practices, social responsibility, and
+                    sustainability. Faculty and students have also played a
+                    critical role in developing Islamic finance and business
+                    practices that contribute to the wider economic and social
+                    context.
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    5.{' '}
+                    <span className="font-bold">
+                      Expanding partnerships and collaborations:{' '}
+                    </span>
+                    We seek to establish partnerships and collaborations with
+                    industry, government, and academic institutions locally and
+                    internationally, to enhance our research and academic
+                    programs, and create opportunities for our students and
+                    faculty to engage in global academic and industry networks.
+                  </p>
+                  <p className=" lg:px-20  text-justify mt-3  ">
+                    By focusing on these key areas, we will continue to fulfill
+                    our mission of providing exceptional Islamic business
+                    education to our students, preparing them to become leaders
+                    in their respective fields and promoting positive change in
+                    society.
                   </p>
                 </div>
               </div>
