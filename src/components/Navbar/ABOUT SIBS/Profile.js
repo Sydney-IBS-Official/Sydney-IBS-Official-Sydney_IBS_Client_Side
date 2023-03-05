@@ -80,7 +80,7 @@ const Profile = () => {
                 {/* Sibs mission  */}
 
                 <div className="  ">
-                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-2 ">
+                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-2  ">
                     Our Mission
                   </h1>
 
@@ -121,7 +121,7 @@ const Profile = () => {
 
                 <div className="  ">
                   <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-3">
-                    Our 5 Principles:
+                    Our 5 Principles
                   </h1>
 
                   <p className=" lg:px-20 px-3 text-justify mt-3 ">
@@ -130,7 +130,6 @@ const Profile = () => {
                     include:
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    1.{' '}
                     <span className="font-bold">
                       Islamic values and ethics:{' '}
                     </span>
@@ -144,7 +143,7 @@ const Profile = () => {
                     from around the world.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    2. <span className="font-bold">Academic excellence: </span>
+                    <span className="font-bold">Academic excellence: </span>
                     We strive for academic excellence in all our programs and
                     curricula, ensuring that our graduates are equipped with the
                     necessary knowledge and skills to excel in their respective
@@ -155,7 +154,6 @@ const Profile = () => {
                     industry.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    3.{' '}
                     <span className="font-bold">
                       Research and scholarship:{' '}
                     </span>
@@ -167,7 +165,6 @@ const Profile = () => {
                     has practical implications for the industry and society.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    4.{' '}
                     <span className="font-bold">
                       Diversity and inclusivity:{' '}
                     </span>
@@ -178,7 +175,6 @@ const Profile = () => {
                     mutual respect, understanding, and inclusivity.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    5.{' '}
                     <span className="font-bold">Social responsibility: </span>
                     We are committed to promoting ethical business practices,
                     social responsibility, and sustainability in all our
@@ -192,7 +188,7 @@ const Profile = () => {
 
                 <div className="  ">
                   <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-3">
-                    Our strategy
+                    Our Strategy
                   </h1>
 
                   <p className=" lg:px-20 px-3 text-justify mt-3 ">
@@ -203,7 +199,7 @@ const Profile = () => {
                     following key areas:
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    1. <span className="font-bold">Innovative Solutions: </span>
+                    <span className="font-bold">Innovative Solutions: </span>
                     We will be thought leaders who put our ideas into action to
                     tackle some of the world's most important challenges. We
                     will conduct rigorous research that informs the most
@@ -214,7 +210,7 @@ const Profile = () => {
                     society.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    2. <span className="font-bold">Ethical Leadership: </span>
+                    <span className="font-bold">Ethical Leadership: </span>
                     We will develop ethical leaders who make a positive
                     difference. Our action-based learning curricula connect
                     students to real-world business experiences with Islamic
@@ -225,7 +221,6 @@ const Profile = () => {
                     promote sustainable development.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    3.{' '}
                     <span className="font-bold">
                       Entrepreneurship and Innovation:
                     </span>
@@ -238,7 +233,7 @@ const Profile = () => {
                     growth in the Islamic economy.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    4. <span className="font-bold">Positive Impact: </span>
+                    <span className="font-bold">Positive Impact: </span>
                     We are making important contributions to the global impact
                     economy. Our community partners with organisations to solve
                     real-world challenges, generate prosperity, and create a
@@ -251,7 +246,6 @@ const Profile = () => {
                     context.
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
-                    5.{' '}
                     <span className="font-bold">
                       Expanding partnerships and collaborations:{' '}
                     </span>
@@ -277,7 +271,7 @@ const Profile = () => {
 
           <div className="lg:mx-[110px] pb-10">
             {/* Academic Structure */}
-            <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
+            {/* <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
               <div className="">
                 <a href="/AcademicStructure">
                   <img
@@ -299,10 +293,10 @@ const Profile = () => {
                   complies with Sharia and its .
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* Governance Structure */}
-            <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
               <div className="">
                 <a href="/LeadershipGovernence">
                   <img
@@ -326,11 +320,11 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Our Facilities */}
 
-            <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
               <div className="">
                 <a href="#">
                   <img
@@ -351,11 +345,11 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Our People */}
 
-            <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
               <div>
                 <a href="#">
                   <img
@@ -375,11 +369,11 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Academic Collaborations */}
 
-            <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
               <div className="">
                 <a href="#">
                   <img
@@ -402,11 +396,11 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Industry Engagement */}
 
-            <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
               <div className="">
                 <a href="#">
                   <img
@@ -429,11 +423,11 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Accreditation */}
 
-            <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+            {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
               <div>
                 <a href="#">
                   <img
@@ -453,7 +447,7 @@ const Profile = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
