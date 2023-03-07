@@ -137,10 +137,10 @@ const Profile = () => {
                     include:
                   </p>
 
-                  <div class=" grid grid-cols-1 md:grid-cols-2 gap-28 lg:px-28 lg:grid-cols-3 px-3">
+                  <div class=" grid grid-cols-1 md:grid-cols-2 gap-10 lg:px-20 lg:grid-cols-3 px-3">
                     {/* PhD content  */}
                     <div className="">
-                      <div className="card w-96 bg-base-100 shadow-xl">
+                      <div className="card w-[350px] bg-base-100 shadow-xl">
                         <div className="card-body">
                           <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
                             {' '}
@@ -165,7 +165,7 @@ const Profile = () => {
                     {/*Masters (MPhil) content  */}
 
                     {/*Masters (coursework) content  */}
-                    <div className="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-[350px] bg-base-100 shadow-xl">
                       <div className="card-body">
                         <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
                           {' '}
@@ -187,7 +187,7 @@ const Profile = () => {
                     </div>
                     {/*Graduate diploma content  */}
 
-                    <div className="card w-96 bg-base-100 shadow-xl ">
+                    <div className="card w-[350px] bg-base-100 shadow-xl ">
                       <div className="card-body">
                         <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
                           {' '}
@@ -207,7 +207,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-[350px] bg-base-100 shadow-xl">
                       <div className="card-body">
                         <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
                           {' '}
@@ -228,7 +228,7 @@ const Profile = () => {
                       </div>
                     </div>
 
-                    <div className="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-[350px] bg-base-100 shadow-xl">
                       <div className="card-body">
                         <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
                           {' '}
