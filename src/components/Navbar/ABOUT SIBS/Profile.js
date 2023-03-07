@@ -8,6 +8,7 @@ import mosque from '../../../Carosel/Asset/mosque.png';
 import collaborate from '../../../Carosel/Asset/colleborate.jpg';
 import engagement from '../../../Carosel/Asset/engagement.jpg';
 import staff from '../../../Carosel/Asset/staff (1).jpg';
+import about from '../../../Carosel/Asset/About-Us.jpg';
 
 const Profile = () => {
   return (
@@ -42,45 +43,47 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="  ">
-                  <h1 className="mb-3 border-t-4 border-sky-700 lg:mx-20 mx-3 mt-2"></h1>
-                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 ">
-                    About Us
-                  </h1>
+                <div className=" w-full flex flex-wrap px-3 mb-5 lg:px-20  lg:mt-5">
+                  <div className="lg:w-[20%] w-full mr-5 ">
+                    <div className="flex justify-center sm:w-full ">
+                      <img
+                        src={about}
+                        alt=""
+                        className="lg:h-[220px] lg:w-[320px] border-2   h-20  min-w-[250px] mt-4 "
+                      />
+                    </div>
+                  </div>
 
-                  <p className=" lg:px-20 px-3 text-justify mt-3 ">
-                    Sydney Islamic Business School (Sydney IBS) is the first
-                    Islamic higher education institution in Australia, committed
-                    to providing excellent education in Islamic business and
-                    becoming a leading teaching and research-focused business
-                    school. Our vision is to equip our graduates with the
-                    necessary knowledge and skills to contribute towards
-                    building an inclusive and sustainable global economy. We
-                    offer degree programs at various academic levels including
-                    doctoral, masters, and graduate diploma programs in the
-                    fields of Islamic Accounting, Islamic Banking and Finance,
-                    Islamic Business Information Systems, Islamic Business Law,
-                    Islamic Economics, Islamic Innovation and Entrepreneurship,
-                    Islamic Insurance, Islamic Management, and Islamic Marketing
-                  </p>
-                  {/* <p className=" lg:px-20 px-3 text-justify mt-3 ">
-                    Our goal is to develop the capabilities of graduates, to
-                    serve the community and to work for an inclusive and
-                    sustainable global economy. Our academic activities,
-                    curricula, and organisational practices are derived from
-                    Islamic principles and correlated with the high standards of
-                    the Australian Higher Education Legal Framework. Our
-                    academic syllabus is structured by input from globally
-                    renowned Islamic business academia as well as industry
-                    experts. We warmly welcome everyone from all over the world
-                    to come join the community at Sydney IBS.
-                  </p> */}
+                  <div className="lg:w-[75%]   border-gray-400 ">
+                    <div className="  lg:px-20  px-3  ">
+                      <h1 className="text-sky-700 text-xl justify-center flex font-bold  mt-2  ">
+                        About Us
+                      </h1>
+                      <p className="  font-sans text-justify  ">
+                        Sydney Islamic Business School (Sydney IBS) is the first
+                        Islamic higher education institution in Australia,
+                        committed to providing excellent education in Islamic
+                        business and becoming a leading teaching and
+                        research-focused business school. Our vision is to equip
+                        our graduates with the necessary knowledge and skills to
+                        contribute towards building an inclusive and sustainable
+                        global economy. We offer degree programs at various
+                        academic levels including doctoral, masters, and
+                        graduate diploma programs in the fields of Islamic
+                        Accounting, Islamic Banking and Finance, Islamic
+                        Business Information Systems, Islamic Business Law,
+                        Islamic Economics, Islamic Innovation and
+                        Entrepreneurship, Islamic Insurance, Islamic Management,
+                        and Islamic Marketing
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Sibs mission  */}
 
                 <div className="  ">
-                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-2  ">
+                  <h1 className="text-sky-700 text-xl font-bold flex justify-center lg:px-20 px-3 mt-2  ">
                     Our Mission
                   </h1>
 
@@ -120,7 +123,7 @@ const Profile = () => {
                 {/* sibs Principles */}
 
                 <div className="  ">
-                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 px-3 mt-3">
+                  <h1 className="text-sky-700 text-xl font-bold lg:px-20 flex justify-center px-3 mt-3">
                     Our 5 Principles
                   </h1>
 
@@ -129,60 +132,10 @@ const Profile = () => {
                     of our academic and organisational practices. Our principles
                     include:
                   </p>
-                  <p className=" lg:px-20  text-justify mt-3  ">
-                    <span className="font-bold">
-                      Islamic values and ethics:{' '}
-                    </span>
-                    We are committed to upholding Islamic values and ethics in
-                    all our academic activities and operations. This includes
-                    ensuring compliance with the high standards of the
-                    Australian Higher Education Legal Framework while
-                    incorporating Islamic values and ethics into all aspects of
-                    its operations. The school's syllabus is curated with inputs
-                    from renowned Islamic business academia and industry experts
-                    from around the world.
-                  </p>
-                  <p className=" lg:px-20  text-justify mt-3  ">
-                    <span className="font-bold">Academic excellence: </span>
-                    We strive for academic excellence in all our programs and
-                    curricula, ensuring that our graduates are equipped with the
-                    necessary knowledge and skills to excel in their respective
-                    fields. Our curricula are on par with top Islamic business
-                    schools worldwide. Our faculty fosters innovation and
-                    collaboration continually improving our programs and
-                    curricula to meet the needs of our students and the
-                    industry.
-                  </p>
-                  <p className=" lg:px-20  text-justify mt-3  ">
-                    <span className="font-bold">
-                      Research and scholarship:{' '}
-                    </span>
-                    We support interdisciplinary research in Islamic business
-                    and finance, contributing to the development of Islamic
-                    finance and business practices in the wider economic and
-                    social context. We encourage our faculty and students to
-                    engage in research that addresses real-world problems and
-                    has practical implications for the industry and society.
-                  </p>
-                  <p className=" lg:px-20  text-justify mt-3  ">
-                    <span className="font-bold">
-                      Diversity and inclusivity:{' '}
-                    </span>
-                    We welcome students from all backgrounds and cultures to our
-                    diverse and inclusive community, where everyone is valued
-                    and respected. We are committed to creating a safe and
-                    supportive learning and working environment that promotes
-                    mutual respect, understanding, and inclusivity.
-                  </p>
-                  <p className=" lg:px-20  text-justify mt-3  ">
-                    <span className="font-bold">Social responsibility: </span>
-                    We are committed to promoting ethical business practices,
-                    social responsibility, and sustainability in all our
-                    academic and organisational activities. We emphasise the
-                    importance of these values to our students and faculty and
-                    encourage them to be agents of positive change in their
-                    communities and workplaces.
-                  </p>
+
+
+                  
+                  
                 </div>
                 {/* Sibs strategy */}
 
