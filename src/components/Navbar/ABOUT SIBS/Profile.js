@@ -11,11 +11,11 @@ const Profile = () => {
         <div className="lg:mx-[110px] shadow ">
           <div className="">
             <div className=" lg:w-full    ">
-              <div className=" bg-gray-100 lg:px-8 px-3 py-3 pb-10  ">
+              <div className=" bg-gray-100 lg:px-8  py-3 pb-10  ">
                 {/* breadcrumb added here */}
 
                 <div className="text-md breadcrumbs md:px-6   ">
-                  <ul className="text-sky-700 ">
+                  <ul className="text-sky-700  border-b-4 border-sky-700">
                     <li>
                       <a href="/">
                         <FontAwesomeIcon
@@ -37,18 +37,27 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
+                <div>
+                  <h1 className="text-sky-700 text-xl font-sans   font-semibold  mt-2 justify-center flex ">
+                    <span className="bg-sky-700 text-white p-1 rounded">
+                      {' '}
+                      About Us
+                    </span>
+                  </h1>
+                </div>
                 <div className=" w-full flex flex-wrap mb-5 justify-center items-center lg:mt-5">
-                  <div className="lg:w-[25%]  lg:mr-12  ">
+                  <div className="lg:w-[35%]  lg:mr-12  ">
                     <div className="flex justify-center sm:w-full ">
-                      <img src={about} alt="" className="   h-60 w-[300px]  mt-4 " />
+                      <img
+                        src={about}
+                        alt=""
+                        className="   h-60 w-[350px]  mt-4 "
+                      />
                     </div>
                   </div>
 
-                  <div className="lg:w-[70%]   border-gray-400 ">
+                  <div className="lg:w-[60%]   border-gray-400 ">
                     <div className="     ">
-                      <h1 className="text-sky-700 text-xl font-sans   font-extrabold  mt-2 lg:ml-[220px] ">
-                        About Us
-                      </h1>
                       <p className="  font-sans text-justify  mt-3">
                         Sydney Islamic Business School (Sydney IBS) is the first
                         Islamic higher education institution in Australia,
@@ -73,8 +82,10 @@ const Profile = () => {
                 {/* Sibs mission  */}
 
                 <div className="  ">
-                  <h1 className="text-sky-700 font-sans text-xl font-extrabold  flex justify-center  mt-3">
-                    Our Mission
+                  <h1 className="text-sky-700 font-sans text-xl font-semibold  flex justify-center  mt-10">
+                    <span className="bg-sky-700 text-white p-1 rounded">
+                      Our Mission
+                    </span>
                   </h1>
 
                   <p className="text-justify mt-3 font-sans">
@@ -101,7 +112,7 @@ const Profile = () => {
                     provides support for students and alumni who wish to start
                     their own businesses that promote sustainable development.
                   </p>
-                  <p className="text-justify mt-3 font-sans border-b-2 ">
+                  <p className="text-justify mt-3 font-sans  ">
                     We are committed to promoting ethical business practices,
                     social responsibility, and sustainability. Our curriculum
                     emphasises these values, and we encourage our students to be
@@ -113,8 +124,10 @@ const Profile = () => {
                 {/* sibs Principles */}
 
                 <div className=" w-full ">
-                  <h1 className=" text-xl text-sky-700 font-extrabold  flex justify-center font-sans  mt-3">
-                    Our 5 Principles
+                  <h1 className=" text-xl text-sky-700 font-semibold  flex justify-center font-sans  mt-10">
+                    <span className="bg-sky-700 text-white p-2 rounded">
+                      Our 5 Principles
+                    </span>
                   </h1>
 
                   <p className="  my-10 mt-3 font-sans">
@@ -125,7 +138,7 @@ const Profile = () => {
                 </div>
                 <div className=" ">
                   <div className=" w-full  grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
-                    <div className=" card max-w-sm lg:w-96 lg:h-[350px] items-center bg-base-100 shadow-xl ">
+                    <div className=" card  lg:h-[350px] items-center bg-gray-100 shadow-2xl ">
                       <div className="p-5">
                         <p className="font-bold text-xl flex justify-center mb-3 font-sans">
                           Islamic values and ethics
@@ -143,7 +156,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card max-w-sm lg:w-96 bg-base-100 shadow-xl">
+                    <div className=" card  bg-gray-100 shadow-2xl">
                       <div className="p-5">
                         <p className="font-bold text-xl flex justify-center mb-3 font-sans">
                           Academic excellence
@@ -160,7 +173,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card max-w-sm lg:w-96  bg-base-100 shadow-xl">
+                    <div className=" card   bg-gray-100 shadow-2xl">
                       <div className="p-5">
                         <p className="font-bold text-xl flex justify-center mb-3 font-sans">
                           Research and scholarship
@@ -176,7 +189,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card max-w-sm lg:w-96 h-[350px]  bg-base-100 shadow-xl">
+                    <div className=" card  lg:h-[350px]   bg-gray-100 shadow-2xl">
                       <div className="p-5 ">
                         <p className="font-bold flex text-xl justify-center mb-3 font-sans ">
                           Diversity and inclusivity
@@ -191,7 +204,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card  max-w-sm lg:w-96 h-[350px] bg-base-100  shadow-xl">
+                    <div className=" card  lg:h-[350px] bg-gray-100 shadow-2xl">
                       <div className=" p-5">
                         <p className="font-bold text-xl text-center mb-3 font-sans">
                           Social responsibility
@@ -212,8 +225,11 @@ const Profile = () => {
                 {/* Sibs strategy */}
 
                 <div className=" w-full  mb-5 mt-16">
-                  <h1 className="text-xl text-sky-700 font-extrabold  flex justify-center font-sans mt-3">
-                    Our Strategy
+                  <h1 className="text-xl text-sky-700 font-semibold  flex justify-center font-sans mt-10">
+                    <span className="bg-sky-700 text-white p-1 rounded">
+                      Our Strategy
+                    </span>
+                    
                   </h1>
 
                   <p className="text-justify mt-5 mb-10  font-sans">
@@ -225,8 +241,8 @@ const Profile = () => {
                   </p>
                 </div>
                 <div className="w-full flex  ">
-                  <div className="w-2/6 mr-12 my-auto ">
-                    <img src={About} className="lg:h-[450px]" alt="" />
+                  <div className="lg:w-2/6 mr-12 my-auto ">
+                    <img src={About} className="lg:h-[400px]" alt="" />
                   </div>
                   <div className="w-4/6">
                     <p className="text-justify ">
