@@ -9,6 +9,10 @@ import collaborate from '../../../Carosel/Asset/colleborate.jpg';
 import engagement from '../../../Carosel/Asset/engagement.jpg';
 import staff from '../../../Carosel/Asset/staff (1).jpg';
 import about from '../../../Carosel/Asset/About-Us.jpg';
+import image1 from '../../../Carosel/Asset/PhD.jpg';
+import image2 from '../../../Carosel/Asset/Masters.jpg';
+import image3 from '../../../Carosel/Asset/Coursework.jpg';
+import image4 from '../../../Carosel/Asset/diploma.png';
 
 const Profile = () => {
   return (
@@ -43,19 +47,19 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className=" w-full flex flex-wrap px-3 mb-5 lg:px-20  lg:mt-5">
-                  <div className="lg:w-[20%] w-full mr-5 ">
+                <div className=" w-full flex flex-wrap   px-3 mb-5 lg:px-20  lg:mt-5">
+                  <div className="lg:w-[20%]  lg:mr-12 ">
                     <div className="flex justify-center sm:w-full ">
                       <img
                         src={about}
                         alt=""
-                        className="lg:h-[220px] lg:w-[320px] border-2   h-20  min-w-[250px] mt-4 "
+                        className="lg:h-[200px] lg:w-[320px] border-2   h-20  min-w-[250px] mt-4 "
                       />
                     </div>
                   </div>
 
                   <div className="lg:w-[75%]   border-gray-400 ">
-                    <div className="  lg:px-20  px-3  ">
+                    <div className="     ">
                       <h1 className="text-sky-700 text-xl justify-center flex font-bold  mt-2  ">
                         About Us
                       </h1>
@@ -127,15 +131,124 @@ const Profile = () => {
                     Our 5 Principles
                   </h1>
 
-                  <p className=" lg:px-20 px-3 text-justify mt-3 ">
+                  <p className=" lg:mx-20 px-3 text-justify mt-3 ">
                     Sydney Islamic Business School principles guide all aspects
                     of our academic and organisational practices. Our principles
                     include:
                   </p>
 
+                  <div class=" grid grid-cols-1 md:grid-cols-2 gap-28 lg:px-28 lg:grid-cols-3 px-3">
+                    {/* PhD content  */}
+                    <div className="">
+                      <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card-body">
+                          <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
+                            {' '}
+                            Islamic values and ethics
+                          </h2>
+                          <p className="text-justify">
+                            {' '}
+                            We are committed to upholding Islamic values and
+                            ethics in all our academic activities and
+                            operations. This includes ensuring compliance with
+                            the high standards of the Australian Higher
+                            Education Legal Framework while incorporating
+                            Islamic values and ethics into all aspects of its
+                            operations. The school's syllabus is curated with
+                            inputs from renowned Islamic business academia and
+                            industry experts from around the world.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
 
-                  
-                  
+                    {/*Masters (MPhil) content  */}
+
+                    {/*Masters (coursework) content  */}
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                      <div className="card-body">
+                        <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
+                          {' '}
+                          Islamic values and ethics
+                        </h2>
+                        <p className="text-justify">
+                          {' '}
+                          We are committed to upholding Islamic values and
+                          ethics in all our academic activities and operations.
+                          This includes ensuring compliance with the high
+                          standards of the Australian Higher Education Legal
+                          Framework while incorporating Islamic values and
+                          ethics into all aspects of its operations. The
+                          school's syllabus is curated with inputs from renowned
+                          Islamic business academia and industry experts from
+                          around the world.
+                        </p>
+                      </div>
+                    </div>
+                    {/*Graduate diploma content  */}
+
+                    <div className="card w-96 bg-base-100 shadow-xl ">
+                      <div className="card-body">
+                        <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
+                          {' '}
+                          Islamic values and ethics
+                        </h2>
+                        <p className="text-justify">
+                          {' '}
+                          We are committed to upholding Islamic values and
+                          ethics in all our academic activities and operations.
+                          This includes ensuring compliance with the high
+                          standards of the Australian Higher Education Legal
+                          Framework while incorporating Islamic values and
+                          ethics into all aspects of its operations. The
+                          school's syllabus is curated with inputs from renowned
+                          Islamic business academia and industry experts from
+                          around the world.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                      <div className="card-body">
+                        <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
+                          {' '}
+                          Islamic values and ethics
+                        </h2>
+                        <p className="text-justify">
+                          {' '}
+                          We are committed to upholding Islamic values and
+                          ethics in all our academic activities and operations.
+                          This includes ensuring compliance with the high
+                          standards of the Australian Higher Education Legal
+                          Framework while incorporating Islamic values and
+                          ethics into all aspects of its operations. The
+                          school's syllabus is curated with inputs from renowned
+                          Islamic business academia and industry experts from
+                          around the world.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                      <div className="card-body">
+                        <h2 className="card-title text-xl text-sky-700 cursor-pointer hover:underline">
+                          {' '}
+                          Islamic values and ethics
+                        </h2>
+                        <p className="text-justify">
+                          {' '}
+                          We are committed to upholding Islamic values and
+                          ethics in all our academic activities and operations.
+                          This includes ensuring compliance with the high
+                          standards of the Australian Higher Education Legal
+                          Framework while incorporating Islamic values and
+                          ethics into all aspects of its operations. The
+                          school's syllabus is curated with inputs from renowned
+                          Islamic business academia and industry experts from
+                          around the world.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 {/* Sibs strategy */}
 
