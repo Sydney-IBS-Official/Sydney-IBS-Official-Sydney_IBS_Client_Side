@@ -1,14 +1,7 @@
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import governanceBody from '../../../Carosel/Asset/governance.jpg';
-import academics from '../../../Carosel/Asset/academics.jpg';
-import accrediation from '../../../Carosel/Asset/Accreditation.png';
-import mosque from '../../../Carosel/Asset/mosque.png';
-import collaborate from '../../../Carosel/Asset/colleborate.jpg';
-import engagement from '../../../Carosel/Asset/engagement.jpg';
-import staff from '../../../Carosel/Asset/staff (1).jpg';
-import about from '../../../Carosel/Asset/About-Us.jpg';
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import about from "../../../Carosel/Asset/About-Us.jpg";
 
 const Profile = () => {
   return (
@@ -122,7 +115,7 @@ const Profile = () => {
 
                 {/* sibs Principles */}
 
-                <div className="  ">
+                <div className=" w-full ">
                   <h1 className="text-sky-700 text-xl font-bold lg:px-20 flex justify-center px-3 mt-3">
                     Our 5 Principles
                   </h1>
@@ -132,10 +125,75 @@ const Profile = () => {
                     of our academic and organisational practices. Our principles
                     include:
                   </p>
-
-
-                  
-                  
+                </div>
+                <div className="w-full  grid grid-cols-3 gap-5">
+                  <div className=" bg-white shadow-md">
+                    <div className="p-5">
+                      <p className="font-bold">Islamic values and ethics</p>
+                      <p>
+                        We are committed to upholding Islamic values and ethics
+                        in all our academic activities and operations. This
+                        includes ensuring compliance with the high standards of
+                        the Australian Higher Education Legal Framework while
+                        incorporating Islamic values and ethics into all aspects
+                        of its operations. The school's syllabus is curated with
+                        inputs from renowned Islamic business academia and
+                        industry experts from around the world.
+                      </p>
+                    </div>
+                  </div>
+                  <div className=" bg-white shadow-md">
+                    <div className="p-5">
+                      <p className="font-bold">Academic excellence</p>
+                      <p>
+                        We strive for academic excellence in all our programs and
+                    curricula, ensuring that our graduates are equipped with the
+                    necessary knowledge and skills to excel in their respective
+                    fields. Our curricula are on par with top Islamic business
+                    schools worldwide. Our faculty fosters innovation and
+                    collaboration continually improving our programs and
+                    curricula to meet the needs of our students and the industry.
+                      </p>
+                    </div>
+                  </div>
+                  <div className=" bg-white shadow-md">
+                    <div className="p-5">
+                      <p className="font-bold">Research and scholarship</p>
+                      <p>
+                       We support interdisciplinary research in Islamic business
+                    and finance, contributing to the development of Islamic
+                    finance and business practices in the wider economic and
+                    social context. We encourage our faculty and students to
+                    engage in research that addresses real-world problems and
+                    has practical implications for the industry and society
+                      </p>
+                    </div>
+                  </div>
+                  <div className=" bg-white shadow-md">
+                    <div className="p-5">
+                      <p className="font-bold">Diversity and inclusivity</p>
+                      <p>
+                        We welcome students from all backgrounds and cultures to our
+                    diverse and inclusive community, where everyone is valued
+                    and respected. We are committed to creating a safe and
+                    supportive learning and working environment that promotes
+                    mutual respect, understanding, and inclusivity
+                      </p>
+                    </div>
+                  </div>
+                  <div className=" bg-white shadow-md">
+                    <div className="p-5">
+                      <p className="font-bold">Social responsibility</p>
+                      <p>
+                        We are committed to promoting ethical business practices,
+                    social responsibility, and sustainability in all our
+                    academic and organisational activities. We emphasise the
+                    importance of these values to our students and faculty and
+                    encourage them to be agents of positive change in their
+                    communities and workplaces.
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 {/* Sibs strategy */}
 
@@ -200,7 +258,7 @@ const Profile = () => {
                   </p>
                   <p className=" lg:px-20  text-justify mt-3  ">
                     <span className="font-bold">
-                      Expanding partnerships and collaborations:{' '}
+                      Expanding partnerships and collaborations:{" "}
                     </span>
                     We seek to establish partnerships and collaborations with
                     industry, government, and academic institutions locally and
