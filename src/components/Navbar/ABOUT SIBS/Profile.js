@@ -92,7 +92,7 @@ const Profile = () => {
                     organisational practices, ensuring compliance with the high
                     standards of the Australian Higher Education Legal Framework
                     while incorporating Islamic values and ethics into all
-                    aspects of our operations.
+                    aspects of our operations
                   </p>
                   <p className=" lg:px-20 px-3 text-justify mt-3 ">
                     We are committed to interdisciplinary research in Islamic
