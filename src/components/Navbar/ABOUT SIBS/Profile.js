@@ -44,8 +44,8 @@ const Profile = () => {
                     About Us
                   </span>
                 </div>
-                <div className=" w-full px-12 flex flex-reverse  mb-5 ">
-                  <div className="lg:w-1/4 mr-10">
+                <div className=" w-full px-12 lg:flex md:flex  mb-5 ">
+                  <div className="lg:w-1/4  mr-10">
                     <div className=" w-full">
                       <div className="flex justify-center sm:w-full ">
                         <img
@@ -57,7 +57,7 @@ const Profile = () => {
                     </div>
                   </div>
 
-                  <div className="lg:w-3/4   border-gray-400 ">
+                  <div className="lg:w-3/5   border-gray-400 ">
                     <div className="    ">
                       <p className="  font-sans text-justify">
                         Sydney Islamic Business School (Sydney IBS) is the first
@@ -87,8 +87,8 @@ const Profile = () => {
                       <span className=" text-primary">Our Mission</span>
                     </p>
                   </div>
-                  <div className=" w-full flex px-12  ">
-                    <div className="lg:w-3/4  border-gray-400 mr-10  ">
+                  <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
+                    <div className="lg:w-3/4  border-gray-400 lg:mr-10  ">
                       <div>
                         <p className="font-sans text-justify">
                           At Sydney IBS, our mission is to provide exceptional
@@ -112,7 +112,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="lg:w-1/4   ">
+                    <div className="lg:w-1/4 flex justify-center    ">
                       <img
                         src={mission}
                         className="h-[200px] w-[270px]"
@@ -125,7 +125,7 @@ const Profile = () => {
 
                 {/* sibs Principles */}
                 <div className="w-full">
-                  <div className="w-full  my-5 mx-12">
+                  <div className="lg:w-full  my-5 mx-12">
                     <p className="font-bold text-xl text-primary">
                       Our 5 Principles
                     </p>
@@ -136,15 +136,15 @@ const Profile = () => {
                     </p>
                   </div>
 
-                  <div className="w-full px-12 flex">
-                    <div className="w-1/4 mr-10 ">
+                  <div className="w-full px-12 lg:flex">
+                    <div className="lg:w-1/4 sm:w-full lg:mr-10 flex justify-center  ">
                       <img
                         src={principles}
                         alt=""
-                        className="h-[200px] w-[270px] border-4 border-gray-500"
+                        className="h-[200px] lg:w-[270px]  border-4 border-gray-500"
                       />
                     </div>
-                    <div className="w-3/4 ">
+                    <div className="lg:w-3/4 sm:w-full ">
                       <p className="text-justify">
                         {' '}
                         <span className="font-bold">
@@ -212,8 +212,8 @@ const Profile = () => {
                   <p className="font-bold text-xl text-primary">Our Strategy</p>
                 </div>
 
-                <div className="full flex px-12">
-                  <div className="w-3/4 mr-10">
+                <div className="lg:w-full lg:flex px-12">
+                  <div className="lg:w-3/4 sm:w-full lg:mr-10">
                     <p className="text-justify ">
                       {' '}
                       At Sydney Islamic Business School, we are committed to
@@ -247,11 +247,11 @@ const Profile = () => {
                       that promote sustainable development.
                     </p>
                   </div>
-                  <div className="1/4">
+                  <div className="lg:1/4 sm:full">
                     <img
                       src={strategy}
                       alt=""
-                      className="h-[200px] w-[270px] border-4 border-gray-500"
+                      className="h-[200px] lg:w-[270px] sm:w-full border-4 border-gray-500"
                     />
                   </div>
                 </div>
