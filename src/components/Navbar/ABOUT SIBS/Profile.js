@@ -173,7 +173,7 @@ const Profile = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="w-full px-12 my-2">
+                  <div className="w-full px-12 mt-5 mb-2">
                     <p className="text-justify">
                       <span className="font-bold">
                         Research and scholarship:
