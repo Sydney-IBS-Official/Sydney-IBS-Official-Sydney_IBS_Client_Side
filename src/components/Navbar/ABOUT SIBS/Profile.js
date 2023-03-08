@@ -128,7 +128,7 @@ const Profile = () => {
                 </div>
                 <div className=" ">
                   <div className=" w-full  grid lg:grid-cols-3 grid-cols-1 gap-5">
-                    <div className=" card w-96 bg-base-100 shadow-xl ">
+                    <div className=" card max-w-sm lg:w-96 bg-base-100 shadow-xl ">
                       <div className="p-5">
                         <p className="font-bold flex justify-center">
                           Islamic values and ethics
@@ -146,7 +146,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card w-96 bg-base-100 shadow-xl">
+                    <div className=" card max-w-xs lg:w-96  bg-base-100 shadow-xl">
                       <div className="p-5">
                         <p className="font-bold flex justify-center">
                           Academic excellence
@@ -163,7 +163,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card w-96 bg-base-100 shadow-xl">
+                    <div className=" card  max-w-sm lg:w-96 bg-base-100 shadow-xl">
                       <div className="p-5">
                         <p className="font-bold flex justify-center">
                           Research and scholarship
@@ -179,7 +179,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card h-[300px] w-96 bg-base-100 shadow-xl">
+                    <div className=" card  max-w-sm lg:w-96 bg-base-100 shadow-xl">
                       <div className="p-5 my-3">
                         <p className="font-bold flex justify-center">
                           Diversity and inclusivity
@@ -194,7 +194,7 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className=" card w-96 bg-base-100 shadow-xl">
+                    <div className=" card max-w-sm lg:w-96 bg-base-100 shadow-xl">
                       <div className=" card-body">
                         <p className="font-bold">Social responsibility</p>
                         <p className="text-justify">
@@ -225,11 +225,11 @@ const Profile = () => {
                     following key areas:
                   </p>
                 </div>
-                <div className="w-full flex ">
+                <div className="lg:w-full flex ">
                   <div className="w-2/6 mr-12 my-auto ">
                     <img src={about} alt="" />
                   </div>
-                  <div className="w-4/6">
+                  <div className="lg:w-4/6">
                     <p className="text-justify ">
                       Innovative Solutions: We will be thought leaders who put
                       our ideas into action to tackle some of the world's most
