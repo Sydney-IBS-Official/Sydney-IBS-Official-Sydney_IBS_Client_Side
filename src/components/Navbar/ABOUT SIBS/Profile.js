@@ -1,7 +1,7 @@
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import about from '../../../Carosel/Asset/About-Us.jpg';
+import about_1 from '../../../Carosel/Asset/About Us/Picture1.jpg';
 import About from '../../../Carosel/Asset/About.jpg';
 
 const Profile = () => {
@@ -37,27 +37,36 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div>
-                  <h1 className="text-sky-700 text-xl font-sans   font-semibold  mt-2 justify-center flex ">
-                    <span className="bg-sky-700 text-white p-1 rounded">
-                      {' '}
-                      About Us
-                    </span>
-                  </h1>
-                </div>
+                <div></div>
                 <div className=" w-full flex flex-wrap mb-5 justify-center items-center lg:mt-5">
-                  <div className="lg:w-[35%]  lg:mr-12  ">
-                    <div className="flex justify-center sm:w-full ">
+                  <div className="lg:w-[35%]    ">
+                    {/* <div className="flex justify-center sm:w-full ">
+                      <h1 className="text-sky-700 text-xl font-sans   font-semibold  mt-2  ">
+                        <span className="bg-sky-700 text-white p-1 rounded">
+                          {' '}
+                          About Us
+                        </span>
+                      </h1>
                       <img
-                        src={about}
+                        src={about_1}
                         alt=""
-                        className="   h-60 w-[350px]  mt-4 "
+                        className="   h-52 w-[350px]  mt-4 "
                       />
+                    </div> */}
+                    <div className=" w-full">
+                      <p className="   ml-12 mt-2">About Us</p>
+                      <div className="flex justify-center sm:w-full ">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="h-52 w-[350px]  "
+                        />
+                      </div>
                     </div>
                   </div>
 
                   <div className="lg:w-[60%]   border-gray-400 ">
-                    <div className="     ">
+                    <div className="    ">
                       <p className="  font-sans text-justify  mt-3">
                         Sydney Islamic Business School (Sydney IBS) is the first
                         Islamic higher education institution in Australia,
@@ -78,11 +87,67 @@ const Profile = () => {
                     </div>
                   </div>
                 </div>
+                <div>
+                  <div className=" w-full flex flex-wrap mb-5 justify-center items-center lg:mt-5">
+                    <div className="lg:w-[60%]   border-gray-400 ">
+                      <div className="    ">
+                        <p className="ml-12 mt-2">Our Mission</p>
+                        <p className=" ml-12 font-sans text-justify  mt-3">
+                          At Sydney IBS, our mission is to provide exceptional
+                          Islamic business education to our students, preparing
+                          them to become leaders in their respective fields. We
+                          are guided by Islamic principles in all our academic
+                          activities, curricula, and organisational practices,
+                          ensuring compliance with the high standards of the
+                          Australian Higher Education Legal Framework while
+                          incorporating Islamic values and ethics into all
+                          aspects of our operations
+                        </p>
+                        <p className=" ml-12 font-sans text-justify  mt-3">
+                          We are committed to interdisciplinary research in
+                          Islamic business and finance that draws on insights
+                          from various fields such as acounting, economics, law,
+                          management, and finance. We support research that
+                          contributes to the development of Islamic finance and
+                          business practices in the wider economic and social
+                          context.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="lg:w-[35%]    ">
+                      <div className=" w-full">
+                        <div className="flex justify-center sm:w-full ">
+                          <img
+                            src={about_1}
+                            alt=""
+                            className="h-52 w-[350px]  "
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='mx-16 mr-12'>
+                    <p>
+                      We encourage entrepreneurship and innovation in Islamic
+                      business and finance, and our Islamic Business Incubator
+                      provides support for students and alumni who wish to start
+                      their own businesses that promote sustainable development.
+                    </p>
+                    <p>
+                      We are committed to promoting ethical business practices,
+                      social responsibility, and sustainability. Our curriculum
+                      emphasises these values, and we encourage our students to
+                      be agents of positive change in their communities and
+                      workplaces.
+                    </p>
+                  </div>
+                </div>
 
                 {/* Sibs mission  */}
 
-                <div className="  ">
-                  <h1 className="text-sky-700 font-sans text-xl font-semibold  flex justify-center  mt-10">
+                <div className=" px-12 ">
+                  <h1 className="text-sky-700 font-sans text-xl font-semibold   mt-10">
                     <span className="bg-sky-700 text-white p-1 rounded">
                       Our Mission
                     </span>
@@ -229,7 +294,6 @@ const Profile = () => {
                     <span className="bg-sky-700 text-white p-1 rounded">
                       Our Strategy
                     </span>
-                    
                   </h1>
 
                   <p className="text-justify mt-5 mb-10  font-sans">
