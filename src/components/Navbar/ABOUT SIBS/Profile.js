@@ -39,7 +39,7 @@ const Profile = () => {
                 <div className="w-full  my-5 mx-auto">
                   <p className="font-bold text-xl text-primary">About Us</p>
                 </div>
-                <div className=" w-full mx-auto flex  mb-5 ">
+                <div className=" w-full mx-12 flex  mb-5 ">
                   <div className="lg:w-1/4 mr-10">
                     <div className=" w-full">
                       <div className="flex justify-center sm:w-full ">
@@ -52,7 +52,7 @@ const Profile = () => {
                     </div>
                   </div>
 
-                  <div className="lg:w-3/4   border-gray-400 ">
+                  <div className="lg:w-3/5   border-gray-400 ">
                     <div className="    ">
                       <p className="  font-sans text-justify">
                         Sydney Islamic Business School (Sydney IBS) is the first
