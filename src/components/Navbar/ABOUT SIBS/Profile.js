@@ -87,6 +87,7 @@ const Profile = () => {
                     </div>
                   </div>
                 </div>
+
                 <div>
                   <div className=" w-full flex flex-wrap mb-5 justify-center items-center lg:mt-5">
                     <div className="lg:w-[60%]   border-gray-400 ">
@@ -127,7 +128,7 @@ const Profile = () => {
                     </div>
                   </div>
 
-                  <div className='mx-16 mr-12'>
+                  <div className="px-12">
                     <p>
                       We encourage entrepreneurship and innovation in Islamic
                       business and finance, and our Islamic Business Incubator
@@ -144,9 +145,90 @@ const Profile = () => {
                   </div>
                 </div>
 
+                <div>
+                  <div className="ml-12">
+                    <p className="    mt-2">Our 5 Principles</p>
+                    <p>
+                      Sydney Islamic Business School principals guide all
+                      aspects of our academic and organisational practices. Our
+                      principles include:
+                    </p>
+                  </div>
+
+                  <div>
+                    <div className=" w-full flex flex-wrap mb-5 justify-center items-center lg:mt-5">
+                      <div className="lg:w-[35%]    ">
+                        <div className=" w-full">
+                          <div className="flex justify-center sm:w-full ">
+                            <img
+                              src={about_1}
+                              alt=""
+                              className="h-52 w-[350px]  "
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="lg:w-[60%]   border-gray-400 ">
+                        <div className="    ">
+                          <p className="  font-sans text-justify  mt-3">
+                            Islamic values and ethics: We are committed to
+                            upholding Islamic values and ethics in all our
+                            academic activities and operations. This includes
+                            ensuring compliance with the high standards of the
+                            Australian Higher Education Legal Framework while
+                            incorporating Islamic values and ethics into all
+                            aspects of its operations. The school's syllabus is
+                            curated with inputs from renowned Islamic business
+                            academia and industry experts from around the world.
+                          </p>
+                          <p className="  font-sans text-justify  mt-3">
+                            Academic excellence: We strive for academic
+                            excellence in all our programs and curricula,
+                            ensuring that our graduates are equipped with the
+                            necessary knowledge and skills to excel in their
+                            respective fields. Our curricula are on par with top
+                            Islamic business schools worldwide. Our faculty
+                            fosters innovation and collaboration continually
+                            improving our programs and curricula to meet the
+                            needs of our students and the industry.{' '}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p>
+                      Research and scholarship: We support interdisciplinary
+                      research in Islamic business and finance, contributing to
+                      the development of Islamic finance and business practices
+                      in the wider economic and social context. We encourage our
+                      faculty and students to engage in research that addresses
+                      real-world problems and has practical implications for the
+                      industry and society.
+                    </p>
+                    <p>
+                      Diversity and inclusivity: We welcome students from all
+                      backgrounds and cultures to our diverse and inclusive
+                      community, where everyone is valued and respected. We are
+                      committed to creating a safe and supportive learning and
+                      working environment that promotes mutual respect,
+                      understanding, and inclusivity.
+                    </p>
+                    <p>
+                      Social responsibility: We are committed to promoting
+                      ethical business practices, social responsibility, and
+                      sustainability in all our academic and organisational
+                      activities. We emphasise the importance of these values to
+                      our students and faculty and encourage them to be agents
+                      of positive change in their communities and workplaces.
+                    </p>
+                  </div>
+                </div>
+
                 {/* Sibs mission  */}
 
-                <div className=" px-12 ">
+                {/* <div className=" px-12 ">
                   <h1 className="text-sky-700 font-sans text-xl font-semibold   mt-10">
                     <span className="bg-sky-700 text-white p-1 rounded">
                       Our Mission
@@ -184,11 +266,11 @@ const Profile = () => {
                     agents of positive change in their communities and
                     workplaces.
                   </p>
-                </div>
+                </div> */}
 
                 {/* sibs Principles */}
 
-                <div className=" w-full ">
+                {/* <div className=" w-full ">
                   <h1 className=" text-xl text-sky-700 font-semibold  flex justify-center font-sans  mt-10">
                     <span className="bg-sky-700 text-white p-2 rounded">
                       Our 5 Principles
@@ -286,10 +368,10 @@ const Profile = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* Sibs strategy */}
 
-                <div className=" w-full  mb-5 mt-16">
+                {/* <div className=" w-full  mb-5 mt-16">
                   <h1 className="text-xl text-sky-700 font-semibold  flex justify-center font-sans mt-10">
                     <span className="bg-sky-700 text-white p-1 rounded">
                       Our Strategy
@@ -377,7 +459,7 @@ const Profile = () => {
                       networks.
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <p className="  text-justify mt-3 font-sans ">
                   By focusing on these key areas, we will continue to fulfill
                   our mission of providing exceptional Islamic business
