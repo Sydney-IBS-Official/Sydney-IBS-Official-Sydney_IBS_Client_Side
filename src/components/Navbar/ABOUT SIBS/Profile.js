@@ -27,10 +27,13 @@ const Profile = () => {
                       </a>
                     </li>
                     <li>
-                      <p>About Us</p>
+                      <p className="font-sans">About Us</p>
                     </li>
                     <li>
-                      <p className="text-black"> Profile | Vision & Mission</p>
+                      <p className="text-black font-sans">
+                        {' '}
+                        Profile | Vision & Mission
+                      </p>
                     </li>
                   </ul>
 
@@ -40,7 +43,7 @@ const Profile = () => {
                 {/* About Us summary */}
 
                 <div className="w-full  mt-5  mb-7 mx-12">
-                  <span className=" text-xl font-bold text-primary p-2">
+                  <span className=" text-xl font-bold text-primary font-sans p-2">
                     About Us
                   </span>
                 </div>
@@ -57,7 +60,7 @@ const Profile = () => {
                     </div>
                   </div>
 
-                  <div className="lg:w-3/5   border-gray-400 ">
+                  <div className="lg:w-full   border-gray-400 ">
                     <div className="    ">
                       <p className="  font-sans text-justify">
                         Sydney Islamic Business School (Sydney IBS) is the first
@@ -84,11 +87,13 @@ const Profile = () => {
                   {/* Sibs mission  */}
                   <div className="w-full  mt-7 mb-5 mx-12">
                     <p className="font-bold text-xl text-primary">
-                      <span className=" text-primary">Our Mission</span>
+                      <span className=" text-primary font-sans">
+                        Our Mission
+                      </span>
                     </p>
                   </div>
                   <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
-                    <div className="lg:w-3/4  border-gray-400 lg:mr-10  ">
+                    <div className="lg:w-full  border-gray-400 lg:mr-10  ">
                       <div>
                         <p className="font-sans text-justify">
                           At Sydney IBS, our mission is to provide exceptional
@@ -115,7 +120,7 @@ const Profile = () => {
                     <div className="lg:w-1/4 flex justify-center    ">
                       <img
                         src={mission}
-                        className="h-[200px] w-[270px]"
+                        className="h-[200px] w-[270px] "
                         alt=""
                         // className="h-52 w-[350px]  "
                       />
@@ -126,10 +131,10 @@ const Profile = () => {
                 {/* sibs Principles */}
                 <div className="w-full">
                   <div className="lg:w-full  my-5 mx-12">
-                    <p className="font-bold text-xl text-primary">
+                    <p className="font-bold text-xl text-primary font-sans">
                       Our 5 Principles
                     </p>
-                    <p className="mt-5">
+                    <p className="mt-5 font-sans">
                       Sydney Islamic Business School principals guide all
                       aspects of our academic and organizational practices. Our
                       principles include.
@@ -144,10 +149,10 @@ const Profile = () => {
                         className="h-[200px] lg:w-[270px]  border-4 border-gray-500"
                       />
                     </div>
-                    <div className="lg:w-3/4 sm:w-full ">
-                      <p className="text-justify">
+                    <div className="lg:w-full sm:w-full ">
+                      <p className="text-justify font-sans">
                         {' '}
-                        <span className="font-bold">
+                        <span className="font-bold font-sans">
                           Islamic values and ethics:
                         </span>{' '}
                         We are committed to upholding Islamic values and ethics
@@ -159,9 +164,11 @@ const Profile = () => {
                         inputs from renowned Islamic business academia and
                         industry experts from around the world.
                       </p>
-                      <p className="text-justify mt-1">
+                      <p className="text-justify mt-1 font-sans">
                         {' '}
-                        <span className="font-bold">Academic excellence: </span>
+                        <span className="font-bold font-sans">
+                          Academic excellence:{' '}
+                        </span>
                         We strive for academic excellence in all our programs
                         and curricula, ensuring that our graduates are equipped
                         with the necessary knowledge and skills to excel in
@@ -174,8 +181,8 @@ const Profile = () => {
                     </div>
                   </div>
                   <div className="w-full px-12 mt-5 mb-2">
-                    <p className="text-justify">
-                      <span className="font-bold">
+                    <p className="text-justify font-sans">
+                      <span className="font-bold font-sans">
                         Research and scholarship:
                       </span>{' '}
                       We support interdisciplinary research in Islamic business
@@ -185,8 +192,8 @@ const Profile = () => {
                       engage in research that addresses real-world problems and
                       has practical implications for the industry and society.
                     </p>
-                    <p className="text-justify my-2">
-                      <span className="font-bold">
+                    <p className="text-justify my-2 font-sans">
+                      <span className="font-bold font-sans">
                         Diversity and inclusivity:
                       </span>{' '}
                       We welcome students from all backgrounds and cultures to
@@ -195,8 +202,10 @@ const Profile = () => {
                       and supportive learning and working environment that
                       promotes mutual respect, understanding, and inclusivity.
                     </p>
-                    <p className="text-justify">
-                      <span className="font-bold">Social responsibility:</span>{' '}
+                    <p className="text-justify font-sans">
+                      <span className="font-bold font-sans">
+                        Social responsibility:
+                      </span>{' '}
                       Social responsibility: We are committed to promoting
                       ethical business practices, social responsibility, and
                       sustainability in all our academic and organisational
@@ -209,12 +218,14 @@ const Profile = () => {
 
                 {/* Sibs strategy */}
                 <div className="full my-5 mx-12">
-                  <p className="font-bold text-xl text-primary">Our Strategy</p>
+                  <p className="font-bold text-xl text-primary font-sans">
+                    Our Strategy
+                  </p>
                 </div>
 
                 <div className="lg:w-full lg:flex px-12">
-                  <div className="lg:w-3/4 sm:w-full lg:mr-10">
-                    <p className="text-justify ">
+                  <div className="lg:w-full sm:w-full lg:mr-10">
+                    <p className="text-justify font-sans ">
                       {' '}
                       At Sydney Islamic Business School, we are committed to
                       unlocking the potential of business by developing powerful
@@ -222,10 +233,12 @@ const Profile = () => {
                       to making a positive impact. Our strategy is focused on
                       the following key areas:
                     </p>
-                    <p className="text-justify mt-1">
+                    <p className="text-justify mt-1 font-sans">
                       {' '}
-                      <span className="font-bold">Innovative Solutions</span>:
-                      We will be thought leaders who put our ideas into action
+                      <span className="font-bold font-sans">
+                        Innovative Solutions
+                      </span>
+                      : We will be thought leaders who put our ideas into action
                       to tackle some of the world's most important challenges.
                       We will conduct rigorous research that informs the most
                       important conversations in Islamic business and finance,
@@ -234,9 +247,11 @@ const Profile = () => {
                       companies to apply our ideas and create positive change in
                       society.
                     </p>
-                    <p className="text-justify my-2">
+                    <p className="text-justify my-2 font-sans">
                       {' '}
-                      <span className="font-bold">Ethical Leadership:</span>
+                      <span className="font-bold font-sans">
+                        Ethical Leadership:
+                      </span>
                       We will develop ethical leaders who make a positive
                       difference. Our action-based learning curricula connect
                       students to real-world business experiences with Islamic
@@ -256,8 +271,8 @@ const Profile = () => {
                   </div>
                 </div>
                 <div className="w-full px-12">
-                  <p className="text-justify">
-                    <span className="font-bold">
+                  <p className="text-justify font-sans">
+                    <span className="font-bold font-sans">
                       Entrepreneurship and Innovation:
                     </span>{' '}
                     We will encourage entrepreneurship and innovation in Islamic
@@ -268,10 +283,12 @@ const Profile = () => {
                     organisations to drive innovation and support sustainable
                     growth in the Islamic economy.
                   </p>
-                  <p className="text-justify my-2">
-                    <span className="font-bold">Positive Impact:</span> We are
-                    making important contributions to the global impact economy.
-                    Our community partners with organisations to solve
+                  <p className="text-justify my-2 font-sans">
+                    <span className="font-bold font-sans">
+                      Positive Impact:
+                    </span>{' '}
+                    We are making important contributions to the global impact
+                    economy. Our community partners with organisations to solve
                     real-world challenges, generate prosperity, and create a
                     positive impact. We provide consulting support to small
                     businesses and non-profits through initiatives that promote
@@ -281,8 +298,8 @@ const Profile = () => {
                     practices that contribute to the wider economic and social
                     context.
                   </p>
-                  <p className="text-justify">
-                    <span className="font-bold">
+                  <p className="text-justify font-sans">
+                    <span className="font-bold font-sans">
                       Expanding partnerships and collaborations:
                     </span>{' '}
                     We seek to establish partnerships and collaborations with
@@ -291,7 +308,7 @@ const Profile = () => {
                     programs, and create opportunities for our students and
                     faculty to engage in global academic and industry networks.
                   </p>
-                  <p className="text-justify mt-2">
+                  <p className="text-justify mt-2 font-sans">
                     By focusing on these key areas, we will continue to fulfill
                     our mission of providing exceptional Islamic business
                     education to our students, preparing them to become leaders
