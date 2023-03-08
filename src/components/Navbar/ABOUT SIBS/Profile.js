@@ -42,25 +42,25 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="w-full  mt-5  mb-7 mx-12">
-                  <span className=" text-xl font-bold text-primary font-sans p-2">
+                <div className="w-full  mt-5  mb-4 mx-12">
+                  <span className=" text-xl font-bold text-primary font-sans ">
                     About Us
                   </span>
                 </div>
-                <div className=" w-full px-12 lg:flex md:flex  mb-5 ">
-                  <div className="lg:w-1/4  mr-10">
+                <div className=" w-full px-12 lg:flex   mb-5 ">
+                  <div className="lg:w-1/4 w-full md:w-full  mr-10">
                     <div className=" w-full">
-                      <div className="flex justify-center sm:w-full ">
+                      <div className="flex-reverse justify-center sm:w-full ">
                         <img
                           src={about_1}
                           alt=""
-                          className="h-[200px] w-[270px] "
+                          className="lg:h-[200px] md:h-[400px] lg:w-[270px] w-full border-4 mb-3"
                         />
                       </div>
                     </div>
                   </div>
 
-                  <div className="lg:w-full   border-gray-400 ">
+                  <div className="lg:w-full w-full  border-gray-400 ">
                     <div className="    ">
                       <p className="  font-sans text-justify">
                         Sydney Islamic Business School (Sydney IBS) is the first
@@ -85,7 +85,7 @@ const Profile = () => {
 
                 <div>
                   {/* Sibs mission  */}
-                  <div className="w-full  mt-7 mb-5 mx-12">
+                  <div className="w-full  mt-5   mx-12">
                     <p className="font-bold text-xl text-primary">
                       <span className=" text-primary font-sans">
                         Our Mission
@@ -94,8 +94,8 @@ const Profile = () => {
                   </div>
                   <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
                     <div className="lg:w-full  border-gray-400 lg:mr-10  ">
-                      <div>
-                        <p className="font-sans text-justify">
+                      <div className="sm:mt-3">
+                        <p className="font-sans text-justify ">
                           At Sydney IBS, our mission is to provide exceptional
                           Islamic business education to our students, preparing
                           them to become leaders in their respective fields. We
@@ -120,7 +120,7 @@ const Profile = () => {
                     <div className="lg:w-1/4 flex justify-center    ">
                       <img
                         src={mission}
-                        className="h-[200px] w-[270px] "
+                        className="lg:h-[200px] md:h-[400px] lg:w-[270px] w-full md:mt-3"
                         alt=""
                         // className="h-52 w-[350px]  "
                       />
@@ -130,11 +130,11 @@ const Profile = () => {
 
                 {/* sibs Principles */}
                 <div className="w-full">
-                  <div className="lg:w-full  my-5 mx-12">
+                  <div className="lg:w-full text-justify mt-5 mb-3 mx-12">
                     <p className="font-bold text-xl text-primary font-sans">
                       Our 5 Principles
                     </p>
-                    <p className="mt-5 font-sans">
+                    <p className="mt-3 font-sans ">
                       Sydney Islamic Business School principals guide all
                       aspects of our academic and organizational practices. Our
                       principles include.
@@ -142,14 +142,14 @@ const Profile = () => {
                   </div>
 
                   <div className="w-full px-12 lg:flex">
-                    <div className="lg:w-1/4 sm:w-full lg:mr-10 flex justify-center  ">
+                    <div className="lg:w-1/4  w-full lg:mr-10 flex justify-center  ">
                       <img
                         src={principles}
                         alt=""
-                        className="h-[200px] lg:w-[270px]  border-4 border-gray-500"
+                        className="lg:h-[200px] md:h-[400px] h-[200px] lg:w-[270px] w-full border-4 border-gray-500"
                       />
                     </div>
-                    <div className="lg:w-full sm:w-full ">
+                    <div className="lg:w-full w-full ">
                       <p className="text-justify font-sans">
                         {' '}
                         <span className="font-bold font-sans">
@@ -217,14 +217,14 @@ const Profile = () => {
                 </div>
 
                 {/* Sibs strategy */}
-                <div className="full my-5 mx-12">
+                <div className="full mt-5 mb-3 mx-12">
                   <p className="font-bold text-xl text-primary font-sans">
                     Our Strategy
                   </p>
                 </div>
 
                 <div className="lg:w-full lg:flex px-12">
-                  <div className="lg:w-full sm:w-full lg:mr-10">
+                  <div className="lg:w-full w-full  lg:mr-10">
                     <p className="text-justify font-sans ">
                       {' '}
                       At Sydney Islamic Business School, we are committed to
@@ -262,11 +262,12 @@ const Profile = () => {
                       that promote sustainable development.
                     </p>
                   </div>
-                  <div className="lg:1/4 sm:full">
+                  <div className="lg:w-1/4 flex justify-center    ">
                     <img
                       src={strategy}
+                      className="lg:h-[200px] md:h-[400px] lg:w-[270px] w-full border-4  border-gray-500"
                       alt=""
-                      className="h-[200px] lg:w-[270px] sm:w-full border-4 border-gray-500"
+                      
                     />
                   </div>
                 </div>
