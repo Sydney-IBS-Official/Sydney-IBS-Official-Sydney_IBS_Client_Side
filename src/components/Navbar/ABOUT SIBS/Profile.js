@@ -1,7 +1,10 @@
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import about_1 from "../../../Carosel/Asset/About Us/Picture1.jpg";
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import about_1 from '../../../Carosel/Asset/About Us/Picture1.jpg';
+import mission from '../../../Carosel/Asset/About Us/mission.png';
+import principles from '../../../Carosel/Asset/About Us/about.jpg';
+import strategy from '../../../Carosel/Asset/strategy.jpg';
 
 const Profile = () => {
   return (
@@ -36,17 +39,19 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="w-full  my-5 mx-auto">
-                  <p className="font-bold text-xl text-primary">About Us</p>
+                <div className="w-full  mt-5  mb-7 mx-12">
+                  <span className=" text-xl font-bold text-primary p-2">
+                    About Us
+                  </span>
                 </div>
-                <div className=" w-full mx-12 flex  mb-5 ">
-                  <div className="lg:w-1/4 mr-10">
+                <div className=" w-full px-12 lg:flex md:flex  mb-5 ">
+                  <div className="lg:w-1/4  mr-10">
                     <div className=" w-full">
                       <div className="flex justify-center sm:w-full ">
                         <img
                           src={about_1}
                           alt=""
-                          className="h-52 w-[350px]  "
+                          className="h-[200px] w-[270px] "
                         />
                       </div>
                     </div>
@@ -74,39 +79,43 @@ const Profile = () => {
                     </div>
                   </div>
                 </div>
+
                 <div>
                   {/* Sibs mission  */}
-                  <div className="w-full  my-5 mx-auto">
+                  <div className="w-full  mt-7 mb-5 mx-12">
                     <p className="font-bold text-xl text-primary">
-                      Our Mission
+                      <span className=" text-primary">Our Mission</span>
                     </p>
                   </div>
-                  <div className=" w-full flex mx-auto ">
-                    <div className="lg:w-3/4  border-gray-400 mr-10">
-                      <p className="font-sans text-justify">
-                        At Sydney IBS, our mission is to provide exceptional
-                        Islamic business education to our students, preparing
-                        them to become leaders in their respective fields. We
-                        are guided by Islamic principles in all our academic
-                        activities, curricula, and organisational practices,
-                        ensuring compliance with the high standards of the
-                        Australian Higher Education Legal Framework while
-                        incorporating Islamic values and ethics into all aspects
-                        of our operations
-                      </p>
-                      <p className="font-sans text-justify ">
-                        We are committed to interdisciplinary research in
-                        Islamic business and finance that draws on insights from
-                        various fields such as acounting, economics, law,
-                        management, and finance. We support research that
-                        contributes to the development of Islamic finance and
-                        business practices in the wider economic and social
-                        context.
-                      </p>
+                  <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
+                    <div className="lg:w-3/4  border-gray-400 lg:mr-10  ">
+                      <div>
+                        <p className="font-sans text-justify">
+                          At Sydney IBS, our mission is to provide exceptional
+                          Islamic business education to our students, preparing
+                          them to become leaders in their respective fields. We
+                          are guided by Islamic principles in all our academic
+                          activities, curricula, and organisational practices,
+                          ensuring compliance with the high standards of the
+                          Australian Higher Education Legal Framework while
+                          incorporating Islamic values and ethics into all
+                          aspects of our operations
+                        </p>
+                        <p className="font-sans text-justify ">
+                          We are committed to interdisciplinary research in
+                          Islamic business and finance that draws on insights
+                          from various fields such as acounting, economics, law,
+                          management, and finance. We support research that
+                          contributes to the development of Islamic finance and
+                          business practices in the wider economic and social
+                          context.
+                        </p>
+                      </div>
                     </div>
-                    <div className="lg:w-1/4   ">
+                    <div className="lg:w-1/4 flex justify-center    ">
                       <img
-                        src={about_1}
+                        src={mission}
+                        className="h-[200px] w-[270px]"
                         alt=""
                         // className="h-52 w-[350px]  "
                       />
@@ -116,27 +125,31 @@ const Profile = () => {
 
                 {/* sibs Principles */}
                 <div className="w-full">
-                  <div className="w-full  my-5 mx-auto">
+                  <div className="lg:w-full  my-5 mx-12">
                     <p className="font-bold text-xl text-primary">
                       Our 5 Principles
                     </p>
-                    <p className="my-2">
+                    <p className="mt-5">
                       Sydney Islamic Business School principals guide all
                       aspects of our academic and organizational practices. Our
                       principles include.
                     </p>
                   </div>
 
-                  <div className="w-full mx-auto flex">
-                    <div className="w-1/4 mr-10 ">
-                      <img src={about_1} alt="" />
+                  <div className="w-full px-12 lg:flex">
+                    <div className="lg:w-1/4 sm:w-full lg:mr-10 flex justify-center  ">
+                      <img
+                        src={principles}
+                        alt=""
+                        className="h-[200px] lg:w-[270px]  border-4 border-gray-500"
+                      />
                     </div>
-                    <div className="w-3/4">
+                    <div className="lg:w-3/4 sm:w-full ">
                       <p className="text-justify">
-                        {" "}
+                        {' '}
                         <span className="font-bold">
                           Islamic values and ethics:
-                        </span>{" "}
+                        </span>{' '}
                         We are committed to upholding Islamic values and ethics
                         in all our academic activities and operations. This
                         includes ensuring compliance with the high standards of
@@ -146,8 +159,8 @@ const Profile = () => {
                         inputs from renowned Islamic business academia and
                         industry experts from around the world.
                       </p>
-                      <p className="text-justify">
-                        {" "}
+                      <p className="text-justify mt-1">
+                        {' '}
                         <span className="font-bold">Academic excellence: </span>
                         We strive for academic excellence in all our programs
                         and curricula, ensuring that our graduates are equipped
@@ -155,19 +168,16 @@ const Profile = () => {
                         their respective fields. Our curricula are on par with
                         top Islamic business schools worldwide. Our faculty
                         fosters innovation and collaboration continually
-                        improving our programs and
+                        improving our programs and curricula to meet the needs
+                        of our students and the industry.
                       </p>
                     </div>
                   </div>
-                  <div className="w-full mx-auto">
-                    <p className="text-justify">
-                      curricula to meet the needs of our students and the
-                      industry.
-                    </p>
+                  <div className="w-full px-12 my-2">
                     <p className="text-justify">
                       <span className="font-bold">
                         Research and scholarship:
-                      </span>{" "}
+                      </span>{' '}
                       We support interdisciplinary research in Islamic business
                       and finance, contributing to the development of Islamic
                       finance and business practices in the wider economic and
@@ -175,10 +185,10 @@ const Profile = () => {
                       engage in research that addresses real-world problems and
                       has practical implications for the industry and society.
                     </p>
-                    <p className="text-justify">
+                    <p className="text-justify my-2">
                       <span className="font-bold">
                         Diversity and inclusivity:
-                      </span>{" "}
+                      </span>{' '}
                       We welcome students from all backgrounds and cultures to
                       our diverse and inclusive community, where everyone is
                       valued and respected. We are committed to creating a safe
@@ -186,7 +196,7 @@ const Profile = () => {
                       promotes mutual respect, understanding, and inclusivity.
                     </p>
                     <p className="text-justify">
-                      <span className="font-bold">Social responsibility:</span>{" "}
+                      <span className="font-bold">Social responsibility:</span>{' '}
                       Social responsibility: We are committed to promoting
                       ethical business practices, social responsibility, and
                       sustainability in all our academic and organisational
@@ -198,51 +208,97 @@ const Profile = () => {
                 </div>
 
                 {/* Sibs strategy */}
-                  <div className="full my-5 mx-auto">
-                  <p className="font-bold text-xl text-primary">
-                  Our Strategy
-                    </p>
-                  </div>
-          
-                  <div className="full flex">
-                    <div className="w-3/4 mr-10">
-                    <p className="text-justify ">
-                        {" "}
-                        At Sydney Islamic Business School, we are committed to unlocking the potential of business by developing powerful ideas, purpose-driven leaders, and a community dedicated to making a positive impact. Our strategy is focused on the following key areas:
-                      </p>
-                      <p className="text-justify">
-                        {" "}
-                        <span className="font-bold">Innovative Solutions</span>
-                        : We will be thought leaders who put our ideas into action to tackle some of the world's most important challenges. We will conduct rigorous research that informs the most important conversations in Islamic business and finance, such as the future of Islamic banking, halal industry, and entrepreneurship in the world. We will work with leading companies to apply our ideas and create positive change in society.
-                      </p>
-                      <p className="text-justify">
-                        {" "}
-                        <span className="font-bold">Ethical Leadership:</span>
-                         We will develop ethical leaders who make a positive difference. Our action-based learning curricula connect students to real-world business experiences with Islamic values and ethics at the core. Our centres of excellence in leadership and positive 
-                      </p>
-        </div>
-                  <div className="1/4">
-                    <img src={about_1} alt="" />
-                  </div>
-                  </div>
-                  <div className="w-full ">
-                    <p>organisations allow students to discover a deep sense of purpose. Our Islamic Business Incubator will help students launch successful startups that promote sustainable development.</p>
+                <div className="full my-5 mx-12">
+                  <p className="font-bold text-xl text-primary">Our Strategy</p>
+                </div>
 
-                    <p className="text-justify">
-                      <span className="font-bold">Entrepreneurship and Innovation:</span>{" "}
-                       We will encourage entrepreneurship and innovation in Islamic business and finance. Our Islamic Business Incubator will provide support for students and alumni who wish to start their own businesses that promote sustainable development. We will work with startups, social enterprises, and other organisations to drive innovation and support sustainable growth in the Islamic economy.
+                <div className="lg:w-full lg:flex px-12">
+                  <div className="lg:w-3/4 sm:w-full lg:mr-10">
+                    <p className="text-justify ">
+                      {' '}
+                      At Sydney Islamic Business School, we are committed to
+                      unlocking the potential of business by developing powerful
+                      ideas, purpose-driven leaders, and a community dedicated
+                      to making a positive impact. Our strategy is focused on
+                      the following key areas:
                     </p>
-                    <p className="text-justify">
-                      <span className="font-bold">Positive Impact:</span>{" "} We are making important contributions to the global impact economy. Our community partners with organisations to solve real-world challenges, generate prosperity, and create a positive impact. We provide consulting support to small businesses and non-profits through initiatives that promote ethical business practices, social responsibility, and sustainability. Faculty and students have also played a critical role in developing Islamic finance and business practices that contribute to the wider economic and social context.
+                    <p className="text-justify mt-1">
+                      {' '}
+                      <span className="font-bold">Innovative Solutions</span>:
+                      We will be thought leaders who put our ideas into action
+                      to tackle some of the world's most important challenges.
+                      We will conduct rigorous research that informs the most
+                      important conversations in Islamic business and finance,
+                      such as the future of Islamic banking, halal industry, and
+                      entrepreneurship in the world. We will work with leading
+                      companies to apply our ideas and create positive change in
+                      society.
                     </p>
-                    <p className="text-justify">
-                      <span className="font-bold">Expanding partnerships and collaborations:</span>{" "}  We seek to establish partnerships and collaborations with industry, government, and academic institutions locally and internationally, to enhance our research and academic programs, and create opportunities for our students and faculty to engage in global academic and industry networks.
-                    </p>
-                    <p className="text-justify mt-2">
-                    By focusing on these key areas, we will continue to fulfill our mission of providing exceptional Islamic business education to our students, preparing them to become leaders in their respective fields and promoting positive change in society.
+                    <p className="text-justify my-2">
+                      {' '}
+                      <span className="font-bold">Ethical Leadership:</span>
+                      We will develop ethical leaders who make a positive
+                      difference. Our action-based learning curricula connect
+                      students to real-world business experiences with Islamic
+                      values and ethics at the core. Our centres of excellence
+                      in leadership and positive organisations allow students to
+                      discover a deep sense of purpose. Our Islamic Business
+                      Incubator will help students launch successful startups
+                      that promote sustainable development.
                     </p>
                   </div>
-               
+                  <div className="lg:1/4 sm:full">
+                    <img
+                      src={strategy}
+                      alt=""
+                      className="h-[200px] lg:w-[270px] sm:w-full border-4 border-gray-500"
+                    />
+                  </div>
+                </div>
+                <div className="w-full px-12">
+                  <p className="text-justify">
+                    <span className="font-bold">
+                      Entrepreneurship and Innovation:
+                    </span>{' '}
+                    We will encourage entrepreneurship and innovation in Islamic
+                    business and finance. Our Islamic Business Incubator will
+                    provide support for students and alumni who wish to start
+                    their own businesses that promote sustainable development.
+                    We will work with startups, social enterprises, and other
+                    organisations to drive innovation and support sustainable
+                    growth in the Islamic economy.
+                  </p>
+                  <p className="text-justify my-2">
+                    <span className="font-bold">Positive Impact:</span> We are
+                    making important contributions to the global impact economy.
+                    Our community partners with organisations to solve
+                    real-world challenges, generate prosperity, and create a
+                    positive impact. We provide consulting support to small
+                    businesses and non-profits through initiatives that promote
+                    ethical business practices, social responsibility, and
+                    sustainability. Faculty and students have also played a
+                    critical role in developing Islamic finance and business
+                    practices that contribute to the wider economic and social
+                    context.
+                  </p>
+                  <p className="text-justify">
+                    <span className="font-bold">
+                      Expanding partnerships and collaborations:
+                    </span>{' '}
+                    We seek to establish partnerships and collaborations with
+                    industry, government, and academic institutions locally and
+                    internationally, to enhance our research and academic
+                    programs, and create opportunities for our students and
+                    faculty to engage in global academic and industry networks.
+                  </p>
+                  <p className="text-justify mt-2">
+                    By focusing on these key areas, we will continue to fulfill
+                    our mission of providing exceptional Islamic business
+                    education to our students, preparing them to become leaders
+                    in their respective fields and promoting positive change in
+                    society.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
