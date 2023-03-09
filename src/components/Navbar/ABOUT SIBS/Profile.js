@@ -8,15 +8,15 @@ import strategy from '../../../Carosel/Asset/strategy.jpg';
 
 const Profile = () => {
   return (
-    <>
-      <div className="container mx-auto  lg:mb-16 lg:mt-7 ">
+    <div className=''>
+      <div className=" mx-auto  lg:mb-16 lg:mt-7 ">
         <div className="lg:mx-[110px] shadow ">
           <div className="">
             <div className=" lg:w-full    ">
               <div className=" bg-gray-100 lg:px-8  py-3 pb-10  ">
                 {/* breadcrumb added here */}
 
-                <div className="text-md breadcrumbs md:px-6   ">
+                <div className="text-md breadcrumbs sm:w-3/5 lg:w-full sm:px-5 md:px-6 sm:max-w-md md:max-w-3xl lg:max-w-full xl:max-w-full ">
                   <ul className="text-sky-700  border-b-4 border-sky-700">
                     <li>
                       <a href="/">
@@ -39,12 +39,12 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="w-full  mt-5  mb-7 mx-12">
+                <div className="lg:w-full  mt-5  mb-7 mx-12">
                   <span className=" text-xl font-bold text-primary p-2">
                     About Us
                   </span>
                 </div>
-                <div className=" w-full px-12 lg:flex md:flex  mb-5 ">
+                <div className=" w-full px-12 lg:flex    mb-5 ">
                   <div className="lg:w-1/4  mr-10">
                     <div className=" w-full">
                       <div className="flex justify-center sm:w-full ">
@@ -82,13 +82,21 @@ const Profile = () => {
 
                 <div>
                   {/* Sibs mission  */}
-                  <div className="w-full  mt-7 mb-5 mx-12">
+                  <div className="lg:w-full  mt-7 mb-5 mx-12">
                     <p className="font-bold text-xl text-primary">
                       <span className=" text-primary">Our Mission</span>
                     </p>
                   </div>
-                  <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
-                    <div className="lg:w-3/4  border-gray-400 lg:mr-10  ">
+                  <div className="lg:flex lg:flex-row   md:flex-col-reverse   lg:max-w-5xl px-12  ">
+                  <div className="lg:hidden  lg:w-1/4 sm:w-full  flex justify-center    ">
+                      <img
+                        src={mission}
+                        className="h-[200px] w-[270px]"
+                        alt=""
+                    
+                      />
+                    </div>
+                    <div className="lg:w-3/4   border-gray-400 lg:mr-10 ">
                       <div>
                         <p className="font-sans text-justify">
                           At Sydney IBS, our mission is to provide exceptional
@@ -112,12 +120,12 @@ const Profile = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="lg:w-1/4 flex justify-center    ">
+                    <div className="hidden lg:block  lg:w-1/4 md:w-1/4 sm:w-full  flex justify-center    ">
                       <img
                         src={mission}
                         className="h-[200px] w-[270px]"
                         alt=""
-                        // className="h-52 w-[350px]  "
+                    
                       />
                     </div>
                   </div>
@@ -238,13 +246,7 @@ const Profile = () => {
                       {' '}
                       <span className="font-bold">Ethical Leadership:</span>
                       We will develop ethical leaders who make a positive
-                      difference. Our action-based learning curricula connect
-                      students to real-world business experiences with Islamic
-                      values and ethics at the core. Our centres of excellence
-                      in leadership and positive organisations allow students to
-                      discover a deep sense of purpose. Our Islamic Business
-                      Incubator will help students launch successful startups
-                      that promote sustainable development.
+                      difference. Our action-
                     </p>
                   </div>
                   <div className="lg:1/4 sm:full">
@@ -255,7 +257,17 @@ const Profile = () => {
                     />
                   </div>
                 </div>
+                <p className="text-justify px-12 ">
+                  based learning curricula connect
+                      students to real-world business experiences with Islamic
+                      values and ethics at the core. Our centres of excellence
+                      in leadership and positive organisations allow students to
+                      discover a deep sense of purpose. Our Islamic Business
+                      Incubator will help students launch successful startups
+                      that promote sustainable development.
+                  </p>
                 <div className="w-full px-12">
+                  
                   <p className="text-justify">
                     <span className="font-bold">
                       Entrepreneurship and Innovation:
@@ -487,7 +499,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
