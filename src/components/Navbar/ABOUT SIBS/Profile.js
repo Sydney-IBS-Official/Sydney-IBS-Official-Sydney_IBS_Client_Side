@@ -208,7 +208,7 @@ const Profile = () => {
                     </div>
 
                     {/* Overview main content start */}
-                    <div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 px-7 mb-11">
+                    <div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 px-7 mb-8">
                       <div class=" hover:bg-sky-300  bg-sky-700 p-5">
                         {/* Research areas */}
                         <div className="">
@@ -412,7 +412,7 @@ const Profile = () => {
               </div>
 
               <div className="lg:mx-10 pb-10 px-10">
-                <div className="lg:w-full  mt-2  mb-3 ">
+                <div className="lg:w-full  mb-2   ">
                   <p className="font-bold text-xl text-primary">
                     <span className=" text-primary ">Our Strategy</span>
                   </p>
@@ -424,7 +424,7 @@ const Profile = () => {
                   making a positive impact. Our strategy is focused on the
                   following key areas:
                 </p>
-                {/* Academic Structure */}
+                {/* Innovative Solutions */}
                 <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
                   <div className="flex items-center">
                     <a href="/AcademicStructure">
@@ -436,14 +436,11 @@ const Profile = () => {
                     </a>
                   </div>
                   <div className="w-[75%]">
-                    <a
-                      href="/AcademicStructure"
-                      className="text-xl text-white"
-                    >
+                    <a href="/AcademicStructure" className="text-xl text-white">
                       Innovative Solutions
                     </a>
 
-                    <p className="mb-3 text-white mt-5 text-justify">
+                    <p className="mb-3 text-white mt-3 text-justify">
                       We will be thought leaders who put our ideas into action
                       to tackle some of the world's most important challenges.
                       We will conduct rigorous research that informs the most
@@ -456,7 +453,7 @@ const Profile = () => {
                   </div>
                 </div>
 
-                {/* Governance Structure */}
+                {/* Ethical Leadership*/}
                 <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
                   <div className="flex items-center">
                     <a href="/LeadershipGovernence">
@@ -469,7 +466,7 @@ const Profile = () => {
                   </div>
                   <div className="w-[75%]">
                     <a href="/LeadershipGovernence">
-                      <p className="text-xl mb-5 text-white">
+                      <p className="text-xl mb-3 text-white">
                         Ethical Leadership
                       </p>
 
@@ -487,7 +484,7 @@ const Profile = () => {
                   </div>
                 </div>
 
-                {/* Our Facilities */}
+                {/* Entrepreneurship and Innovation */}
 
                 <div className="flex bg-sky-700 p-3 mb-5 gap-5">
                   <div className="flex items-center">
@@ -501,7 +498,7 @@ const Profile = () => {
                   </div>
                   <div className="w-[75%]">
                     <a href="#">
-                      <p className="text-xl text-white mb-5">
+                      <p className="text-xl text-white mb-3">
                         Entrepreneurship and Innovation
                       </p>
                       <p className="mb-3 text-white text-justify">
@@ -518,7 +515,7 @@ const Profile = () => {
                   </div>
                 </div>
 
-                {/* Our People */}
+                {/*   Positive Impact */}
 
                 <div className="flex bg-sky-700 p-3 mb-5 gap-5">
                   <div className="flex items-center">
@@ -532,7 +529,7 @@ const Profile = () => {
                   </div>
                   <div className="w-[75%]">
                     <a href="/people">
-                      <p className="text-xl text-white  mb-5">
+                      <p className="text-xl text-white  mb-3">
                         Positive Impact
                       </p>
                       <p className="mb-3 text-white text-justify">
@@ -551,7 +548,7 @@ const Profile = () => {
                   </div>
                 </div>
 
-                {/* Academic Collaborations */}
+                {/*     Expanding partnerships and collaborations */}
 
                 <div className="flex bg-sky-700 p-3 mb-5 gap-5">
                   <div className="flex items-center">
@@ -565,7 +562,7 @@ const Profile = () => {
                   </div>
                   <div className="w-[75%]">
                     <a href="#">
-                      <p className="text-xl mb-5 text-white">
+                      <p className="text-xl mb-3 text-white">
                         Expanding partnerships and collaborations
                       </p>
                       <p className="mb-3 text-white text-justify">
