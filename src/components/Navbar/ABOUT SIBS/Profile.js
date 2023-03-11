@@ -424,156 +424,163 @@ const Profile = () => {
                   making a positive impact. Our strategy is focused on the
                   following key areas:
                 </p>
-                {/* Innovative Solutions */}
-                <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
-                  <div className="flex items-center">
-                    <a href="/AcademicStructure">
-                      <img
-                        src={about_1}
-                        alt=""
-                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                      />
-                    </a>
-                  </div>
-                  <div className="w-[75%]">
-                    <a href="/AcademicStructure" className="text-xl text-white">
-                      Innovative Solutions
-                    </a>
+                <div className="">
+                  {/* Innovative Solutions */}
+                  <div className="lg:flex  bg-sky-700 shadow p-3 mb-5 gap-5 ">
+                    <div className="flex justify-center items-center">
+                      <a href="/AcademicStructure">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="lg:h-28 lg:w-[200px]  w-full"
+                        />
+                      </a>
+                    </div>
+                    <div className="lg:w-[75%] w-full">
+                      <a
+                        href="/AcademicStructure"
+                        className="text-xl text-white"
+                      >
+                        Innovative Solutions
+                      </a>
 
-                    <p className="mb-3 text-white mt-3 text-justify">
-                      We will be thought leaders who put our ideas into action
-                      to tackle some of the world's most important challenges.
-                      We will conduct rigorous research that informs the most
-                      important conversations in Islamic business and finance,
-                      such as the future of Islamic banking, halal industry, and
-                      entrepreneurship in the world. We will work with leading
-                      companies to apply our ideas and create positive change in
-                      society.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Ethical Leadership*/}
-                <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
-                  <div className="flex items-center">
-                    <a href="/LeadershipGovernence">
-                      <img
-                        src={about_1}
-                        alt=""
-                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                      />
-                    </a>
-                  </div>
-                  <div className="w-[75%]">
-                    <a href="/LeadershipGovernence">
-                      <p className="text-xl mb-3 text-white">
-                        Ethical Leadership
+                      <p className="mb-3 text-white mt-3 text-justify">
+                        We will be thought leaders who put our ideas into action
+                        to tackle some of the world's most important challenges.
+                        We will conduct rigorous research that informs the most
+                        important conversations in Islamic business and finance,
+                        such as the future of Islamic banking, halal industry,
+                        and entrepreneurship in the world. We will work with
+                        leading companies to apply our ideas and create positive
+                        change in society.
                       </p>
-
-                      <p className="mb-3 text-white text-justify">
-                        We will develop ethical leaders who make a positive
-                        difference. Our action-based learning curricula connect
-                        students to real-world business experiences with Islamic
-                        values and ethics at the core. Our centres of excellence
-                        in leadership and positive organisations allow students
-                        to discover a deep sense of purpose. Our Islamic
-                        Business Incubator will help students launch successful
-                        startups that promote sustainable development.
-                      </p>
-                    </a>
+                    </div>
                   </div>
-                </div>
 
-                {/* Entrepreneurship and Innovation */}
+                  {/* Ethical Leadership*/}
+                  <div className="lg:flex bg-sky-700 shadow p-3 mb-5 gap-5">
+                    <div className="flex justify-center items-center">
+                      <a href="/LeadershipGovernence">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="lg:h-28 lg:w-[200px] w-full"
+                        />
+                      </a>
+                    </div>
+                    <div className="lg:w-[75%] w-full">
+                      <a href="/LeadershipGovernence">
+                        <p className="text-xl mb-3 text-white">
+                          Ethical Leadership
+                        </p>
 
-                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-                  <div className="flex items-center">
-                    <a href="#">
-                      <img
-                        src={about_1}
-                        alt=""
-                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                      />
-                    </a>
+                        <p className="mb-3 text-white text-justify">
+                          We will develop ethical leaders who make a positive
+                          difference. Our action-based learning curricula
+                          connect students to real-world business experiences
+                          with Islamic values and ethics at the core. Our
+                          centres of excellence in leadership and positive
+                          organisations allow students to discover a deep sense
+                          of purpose. Our Islamic Business Incubator will help
+                          students launch successful startups that promote
+                          sustainable development.
+                        </p>
+                      </a>
+                    </div>
                   </div>
-                  <div className="w-[75%]">
-                    <a href="#">
-                      <p className="text-xl text-white mb-3">
-                        Entrepreneurship and Innovation
-                      </p>
-                      <p className="mb-3 text-white text-justify">
-                        We will encourage entrepreneurship and innovation in
-                        Islamic business and finance. Our Islamic Business
-                        Incubator will provide support for students and alumni
-                        who wish to start their own businesses that promote
-                        sustainable development. We will work with startups,
-                        social enterprises, and other organisations to drive
-                        innovation and support sustainable growth in the Islamic
-                        economy.
-                      </p>
-                    </a>
-                  </div>
-                </div>
 
-                {/*   Positive Impact */}
+                  {/* Entrepreneurship and Innovation */}
 
-                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-                  <div className="flex items-center">
-                    <a href="#">
-                      <img
-                        src={about_1}
-                        alt=""
-                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                      />
-                    </a>
+                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                    <div className="flex justify-center items-center">
+                      <a href="#">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="lg:h-28 lg:w-[200px]  w-full"
+                        />
+                      </a>
+                    </div>
+                    <div className="lg:w-[75%] w-full ">
+                      <a href="#">
+                        <p className="text-xl text-white mb-3">
+                          Entrepreneurship and Innovation
+                        </p>
+                        <p className="mb-3 text-white text-justify">
+                          We will encourage entrepreneurship and innovation in
+                          Islamic business and finance. Our Islamic Business
+                          Incubator will provide support for students and alumni
+                          who wish to start their own businesses that promote
+                          sustainable development. We will work with startups,
+                          social enterprises, and other organisations to drive
+                          innovation and support sustainable growth in the
+                          Islamic economy.
+                        </p>
+                      </a>
+                    </div>
                   </div>
-                  <div className="w-[75%]">
-                    <a href="/people">
-                      <p className="text-xl text-white  mb-3">
-                        Positive Impact
-                      </p>
-                      <p className="mb-3 text-white text-justify">
-                        We are making important contributions to the global
-                        impact economy. Our community partners with
-                        organisations to solve real-world challenges, generate
-                        prosperity, and create a positive impact. We provide
-                        consulting support to small businesses and non-profits
-                        through initiatives that promote ethical business
-                        practices, social responsibility, and sustainability.
-                        Faculty and students have also played a critical role in
-                        developing Islamic finance and business practices that
-                        contribute to the wider economic and social context.
-                      </p>
-                    </a>
-                  </div>
-                </div>
 
-                {/*     Expanding partnerships and collaborations */}
+                  {/*   Positive Impact */}
 
-                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-                  <div className="flex items-center">
-                    <a href="#">
-                      <img
-                        src={about_1}
-                        alt=""
-                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                      />
-                    </a>
+                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                    <div className="flex justify-center items-center">
+                      <a href="#">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="lg:h-28 lg:w-[200px] w-full"
+                        />
+                      </a>
+                    </div>
+                    <div className="lg:w-[75%] w-full">
+                      <a href="/people">
+                        <p className="text-xl text-white  mb-3">
+                          Positive Impact
+                        </p>
+                        <p className="mb-3 text-white text-justify">
+                          We are making important contributions to the global
+                          impact economy. Our community partners with
+                          organisations to solve real-world challenges, generate
+                          prosperity, and create a positive impact. We provide
+                          consulting support to small businesses and non-profits
+                          through initiatives that promote ethical business
+                          practices, social responsibility, and sustainability.
+                          Faculty and students have also played a critical role
+                          in developing Islamic finance and business practices
+                          that contribute to the wider economic and social
+                          context.
+                        </p>
+                      </a>
+                    </div>
                   </div>
-                  <div className="w-[75%]">
-                    <a href="#">
-                      <p className="text-xl mb-3 text-white">
-                        Expanding partnerships and collaborations
-                      </p>
-                      <p className="mb-3 text-white text-justify">
-                        We seek to establish partnerships and collaborations
-                        with industry, government, and academic institutions
-                        locally and internationally, to enhance our research and
-                        academic programs, and create opportunities for our
-                        students and faculty to engage in global academic and
-                        industry networks.
-                      </p>
-                    </a>
+
+                  {/*     Expanding partnerships and collaborations */}
+
+                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                    <div className="flex justify-center items-center">
+                      <a href="#">
+                        <img
+                          src={about_1}
+                          alt=""
+                          className="lg:h-28 lg:w-[200px] w-full"
+                        />
+                      </a>
+                    </div>
+                    <div className="lg:w-[75%] w-full">
+                      <a href="#">
+                        <p className="text-xl mb-3 text-white">
+                          Expanding partnerships and collaborations
+                        </p>
+                        <p className="mb-3 text-white text-justify">
+                          We seek to establish partnerships and collaborations
+                          with industry, government, and academic institutions
+                          locally and internationally, to enhance our research
+                          and academic programs, and create opportunities for
+                          our students and faculty to engage in global academic
+                          and industry networks.
+                        </p>
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <p>
