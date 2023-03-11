@@ -15,7 +15,7 @@ const Profile = () => {
         <div className="lg:mx-[110px]  ">
           <div className="shadow">
             <div className=" lg:w-full    ">
-              <div className=" bg-gray-100 lg:px-8  py-3 pb-10  ">
+              <div className=" bg-gray-100 lg:px-8  py-3   ">
                 {/* breadcrumb added here */}
 
                 <div className="text-md breadcrumbs md:px-6  mx-6 ">
@@ -108,7 +108,7 @@ const Profile = () => {
 
                 {/* sibs Principles */}
                 <div className="w-full">
-                  <div className="lg:w-full text-justify mt-5 mb-3 mx-12">
+                  {/* <div className="lg:w-full text-justify mt-5 mb-3 mx-12">
                     <p className="font-bold text-xl text-primary ">
                       Our  Principles
                     </p>
@@ -117,7 +117,7 @@ const Profile = () => {
                       aspects of our academic and organizational practices. Our
                       principles include.
                     </p>
-                  </div>
+                  </div> */}
 
                   {/* <div className="w-full  px-12 lg:flex">
                     <div className="lg:w-3/6 mr-12 md:w-full flex justify-center    ">
@@ -200,9 +200,9 @@ const Profile = () => {
                     </div>
                   </div>
                   <div className=""></div> */}
-                  <div className="lg:mx-auto lg:mt-5 lg:pb-10 pb-2">
-                    <div className="w-50 text-2xl  font-bold cursor-pointer   text-center">
-                      <button className="bg-sky-700  pr-16 pb-5 pt-5 pl-16">
+                  <div className="lg:mx-auto lg:mt-5  pb-2">
+                    <div className="w-50 text-xl  font-bold cursor-pointer   text-center">
+                      <button className="bg-sky-700  px-10 pb-5 pt-5 ">
                         <p className=" text-white  "> Our 6 Principles</p>
                       </button>
                     </div>
@@ -331,7 +331,7 @@ const Profile = () => {
                       <div id="ethics">
                         <p className="text-justify">
                           {' '}
-                          <span className="font-bold ">
+                          <span className="font-bold text-md ">
                             Islamic values and ethics:
                           </span>{' '}
                           We are committed to upholding Islamic values and
@@ -411,8 +411,185 @@ const Profile = () => {
                 </div>
               </div>
 
+              <div className="lg:mx-10 pb-10 px-10">
+                <div className="lg:w-full  mt-2  mb-3 ">
+                  <p className="font-bold text-xl text-primary">
+                    <span className=" text-primary ">Our Strategy</span>
+                  </p>
+                </div>
+                <p className=" text-justify mb-5 ">
+                  At Sydney Islamic Business School, we are committed to
+                  unlocking the potential of business by developing powerful
+                  ideas, purpose-driven leaders, and a community dedicated to
+                  making a positive impact. Our strategy is focused on the
+                  following key areas:
+                </p>
+                {/* Academic Structure */}
+                <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
+                  <div className="flex items-center">
+                    <a href="/AcademicStructure">
+                      <img
+                        src={about_1}
+                        alt=""
+                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%]">
+                    <a
+                      href="/AcademicStructure"
+                      className="text-xl text-white"
+                    >
+                      Innovative Solutions
+                    </a>
+
+                    <p className="mb-3 text-white mt-5 text-justify">
+                      We will be thought leaders who put our ideas into action
+                      to tackle some of the world's most important challenges.
+                      We will conduct rigorous research that informs the most
+                      important conversations in Islamic business and finance,
+                      such as the future of Islamic banking, halal industry, and
+                      entrepreneurship in the world. We will work with leading
+                      companies to apply our ideas and create positive change in
+                      society.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Governance Structure */}
+                <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
+                  <div className="flex items-center">
+                    <a href="/LeadershipGovernence">
+                      <img
+                        src={about_1}
+                        alt=""
+                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%]">
+                    <a href="/LeadershipGovernence">
+                      <p className="text-xl mb-5 text-white">
+                        Ethical Leadership
+                      </p>
+
+                      <p className="mb-3 text-white text-justify">
+                        We will develop ethical leaders who make a positive
+                        difference. Our action-based learning curricula connect
+                        students to real-world business experiences with Islamic
+                        values and ethics at the core. Our centres of excellence
+                        in leadership and positive organisations allow students
+                        to discover a deep sense of purpose. Our Islamic
+                        Business Incubator will help students launch successful
+                        startups that promote sustainable development.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Our Facilities */}
+
+                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+                  <div className="flex items-center">
+                    <a href="#">
+                      <img
+                        src={about_1}
+                        alt=""
+                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%]">
+                    <a href="#">
+                      <p className="text-xl text-white mb-5">
+                        Entrepreneurship and Innovation
+                      </p>
+                      <p className="mb-3 text-white text-justify">
+                        We will encourage entrepreneurship and innovation in
+                        Islamic business and finance. Our Islamic Business
+                        Incubator will provide support for students and alumni
+                        who wish to start their own businesses that promote
+                        sustainable development. We will work with startups,
+                        social enterprises, and other organisations to drive
+                        innovation and support sustainable growth in the Islamic
+                        economy.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Our People */}
+
+                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+                  <div className="flex items-center">
+                    <a href="#">
+                      <img
+                        src={about_1}
+                        alt=""
+                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%]">
+                    <a href="/people">
+                      <p className="text-xl text-white  mb-5">
+                        Positive Impact
+                      </p>
+                      <p className="mb-3 text-white text-justify">
+                        We are making important contributions to the global
+                        impact economy. Our community partners with
+                        organisations to solve real-world challenges, generate
+                        prosperity, and create a positive impact. We provide
+                        consulting support to small businesses and non-profits
+                        through initiatives that promote ethical business
+                        practices, social responsibility, and sustainability.
+                        Faculty and students have also played a critical role in
+                        developing Islamic finance and business practices that
+                        contribute to the wider economic and social context.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+
+                {/* Academic Collaborations */}
+
+                <div className="flex bg-sky-700 p-3 mb-5 gap-5">
+                  <div className="flex items-center">
+                    <a href="#">
+                      <img
+                        src={about_1}
+                        alt=""
+                        className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%]">
+                    <a href="#">
+                      <p className="text-xl mb-5 text-white">
+                        Expanding partnerships and collaborations
+                      </p>
+                      <p className="mb-3 text-white text-justify">
+                        We seek to establish partnerships and collaborations
+                        with industry, government, and academic institutions
+                        locally and internationally, to enhance our research and
+                        academic programs, and create opportunities for our
+                        students and faculty to engage in global academic and
+                        industry networks.
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <p>
+                  By focusing on these key areas, we will continue to fulfill
+                  our mission of providing exceptional Islamic business
+                  education to our students, preparing them to become leaders in
+                  their respective fields and promoting positive change in
+                  society.
+                </p>
+              </div>
+
               {/* Sibs strategy */}
-              <div className="full mt-5 mb-3 mx-20">
+              {/* <div className="full mt-5 mb-3 mx-20">
                 <p className="font-bold text-xl text-primary ">Our Strategy</p>
               </div>
 
@@ -498,196 +675,12 @@ const Profile = () => {
                     src={strategy}
                     className=" md:h-[400px]   w-full md:mt-3"
                     alt=""
-                    // className="h-52 w-[350px]  "
+                   
                   />
                 </div>
-              </div>
-              <div className="w-full px-12"></div>
+              </div> */}
             </div>
           </div>
-        </div>
-
-        {/* MAin content Added */}
-
-        <div className="lg:mx-[110px] pb-10">
-          {/* Academic Structure */}
-          {/* <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
-              <div className="">
-                <a href="/AcademicStructure">
-                  <img
-                    src={academics}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="/AcademicStructure" className="text-2xl text-white">
-                  Academic Structure
-                </a>
-
-                <p className="mb-3 text-white mt-5 text-justify">
-                  Sydney IBS is Australia's top university and ranked in the top
-                  30 globally.Islamic banking, Islamic finance, or
-                  Sharia-compliant finance is banking or financing activity that
-                  complies with Sharia and its .
-                </p>
-              </div>
-            </div> */}
-
-          {/* Governance Structure */}
-          {/* <div className="flex bg-sky-700 shadow p-3 mb-5 gap-5">
-              <div className="">
-                <a href="/LeadershipGovernence">
-                  <img
-                    src={governanceBody}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="/LeadershipGovernence">
-                  <p className="text-2xl mb-5 text-white">
-                    Governance Structure
-                  </p>
-
-                  <p className="mb-3 text-white text-justify">
-                    Research agendas focused on issues that are highly
-                    significant for organisations.It tries to promote human
-                    brotherhood, socio-economic justice and the well-being of
-                    all through an integrated role
-                  </p>
-                </a>
-              </div>
-            </div> */}
-
-          {/* Our Facilities */}
-
-          {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
-                <a href="#">
-                  <img
-                    src={mosque}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="#">
-                  <p className="text-2xl text-white mb-5">Our Facilities</p>
-                  <p className="mb-3 text-white text-justify">
-                    Our goal is to achieve real-world results for our partners
-                    in in business, government.A Shariah-compliant insurance
-                    that can be renewed online. DISCOVER. A Shariah-compliant
-                    motor insurance plan
-                  </p>
-                </a>
-              </div>
-            </div> */}
-
-          {/* Our People */}
-
-          {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-              <div>
-                <a href="#">
-                  <img
-                    src={staff}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="/people">
-                  <p className="text-2xl text-white  mb-5">Our People</p>
-                  <p className="mb-3 text-white text-justify">
-                    When it comes to producing employable graduates, Sydney IBS
-                    is number 1.International business relates to any situation
-                    where the production or distribution of goods or services
-                  </p>
-                </a>
-              </div>
-            </div> */}
-
-          {/* Academic Collaborations */}
-
-          {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
-                <a href="#">
-                  <img
-                    src={collaborate}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="#">
-                  <p className="text-2xl mb-5 text-white">
-                    Academic Collaborations
-                  </p>
-                  <p className="mb-3 text-white text-justify">
-                    Our goal is to achieve real-world results for our partners
-                    in in business, government.Management is the coordination
-                    and administration of tasks to achieve a goal. Such
-                    administration activities
-                  </p>
-                </a>
-              </div>
-            </div> */}
-
-          {/* Industry Engagement */}
-
-          {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
-                <a href="#">
-                  <img
-                    src={engagement}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="#">
-                  <p className="text-2xl  mb-5 text-white">
-                    Industry Engagement
-                  </p>
-                  <p className="mb-3 text-white text-justify">
-                    Sydney IBS has been named the 16th most international
-                    university in the world .Shariah restrictions on certain
-                    financial and trade transactions is the raison d’être for
-                    the emergence of
-                  </p>
-                </a>
-              </div>
-            </div> */}
-
-          {/* Accreditation */}
-
-          {/* <div className="flex bg-sky-700 p-3 mb-5 gap-5">
-              <div>
-                <a href="#">
-                  <img
-                    src={accrediation}
-                    alt=""
-                    className="lg:h-28 lg:w-[200px] h-20 w-[150px]"
-                  />
-                </a>
-              </div>
-              <div className="w-[75%]">
-                <a href="#">
-                  <p className="text-2xl text-white  mb-5">Accreditation</p>
-                  <p className="mb-3 text-white text-justify">
-                    When it comes to producing employable graduates, Sydney IBS
-                    is number 1.International business relates to any situation
-                    where the production or distribution of goods or services
-                  </p>
-                </a>
-              </div>
-            </div> */}
         </div>
       </div>
     </>
