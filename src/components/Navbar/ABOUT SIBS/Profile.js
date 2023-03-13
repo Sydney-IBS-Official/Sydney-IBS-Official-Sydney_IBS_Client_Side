@@ -25,7 +25,7 @@ const Profile = () => {
               <div className=" bg-gray-100 lg:px-8  py-3   ">
                 {/* breadcrumb added here */}
 
-                <div className="text-md breadcrumbs md:px-6  mx-6 ">
+                <div className="text-md breadcrumbs md:px-6 px-6 lg:px-7  ">
                   <ul className="text-sky-700  border-b-4 border-sky-700">
                     <li>
                       <a href="/">Home</a>
@@ -49,14 +49,14 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="lg:w-full  mt-5   mx-12">
+                <div className="lg:w-full  mt-5   px-7">
                   <span className=" text-xl font-bold text-primary  ">
                     About Us
                   </span>
                 </div>
 
                 <div>
-                  <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-12  ">
+                  <div className=" w-full container lg:flex lg:flex-row sm:flex sm:flex-col-reverse px-7  ">
                     <div className="lg:w-full  border-gray-400 lg:mr-10  ">
                       <div className="sm:mt-3">
                         <p className=" text-justify ">
@@ -118,14 +118,14 @@ const Profile = () => {
                 <div className="w-full">
                   <div className="lg:mx-auto lg:mt-5  pb-2">
                     <div className="w-50 text-xl  font-bold text-center sm:mt-5">
-                      <button className="bg-sky-700  px-10 pb-5 pt-5 ">
+                      <button className="bg-sky-700  px-7 pb-5 pt-5 ">
                         <p className=" text-white  "> Our 6 Principles</p>
                       </button>
                     </div>
 
                     {/* Overview main content start */}
-                    <div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 px-7 mb-8">
-                      <div class=" hover:bg-sky-300  bg-sky-700 p-5">
+                    <div className="grid lg:grid-cols-2 gap-1  sm:grid-cols-1 m-5 px-2 mb-8">
+                      <div class=" hover:bg-sky-300  bg-sky-700 lg:p-5 p-2 md:p-4">
                         {/* Research areas */}
                         <div className="">
                           <div className="items-center w-full text-center ">
@@ -136,7 +136,7 @@ const Profile = () => {
                           </div>
                           <div className="">
                             <a href="#ethics">
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Islamic values and ethics
                               </h2>
                             </a>
@@ -145,7 +145,7 @@ const Profile = () => {
                       </div>
 
                       {/*   Academic excellence */}
-                      <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+                      <div class=" hover:bg-sky-300 bg-sky-700 lg:p-5 p-2 md:p-4">
                         <div className="">
                           <div className="items-center w-full text-center ">
                             <FontAwesomeIcon
@@ -156,7 +156,7 @@ const Profile = () => {
                           <div className="">
                             <a href="#Academic">
                               {' '}
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Academic excellence
                               </h2>
                             </a>
@@ -165,7 +165,7 @@ const Profile = () => {
                       </div>
 
                       {/* Admission requirements */}
-                      <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+                      <div class=" hover:bg-sky-300 bg-sky-700 lg:p-5 p-2 md:p-4">
                         <div className="">
                           <div className="items-center w-full text-center ">
                             <FontAwesomeIcon
@@ -177,7 +177,7 @@ const Profile = () => {
                           <div className="">
                             <a href="#Research">
                               {' '}
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Research and scholarship
                               </h2>
                             </a>
@@ -186,7 +186,7 @@ const Profile = () => {
                       </div>
 
                       {/* Course outcomes */}
-                      <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+                      <div class=" hover:bg-sky-300 bg-sky-700 lg:p-5 p-2 md:p-4">
                         <div className="">
                           <div className="items-center w-full text-center">
                             <FontAwesomeIcon
@@ -196,7 +196,7 @@ const Profile = () => {
                           </div>
                           <div className="">
                             <a href="#Diversity">
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Diversity and inclusivity
                               </h2>
                             </a>
@@ -205,7 +205,7 @@ const Profile = () => {
                       </div>
 
                       {/*   Social responsibility */}
-                      <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+                      <div class=" hover:bg-sky-300 bg-sky-700 lg:p-5 p-2 md:p-4">
                         <div className="">
                           <div className="items-center w-full text-center ">
                             <FontAwesomeIcon
@@ -215,7 +215,7 @@ const Profile = () => {
                           </div>
                           <div className="">
                             <a href="#Social">
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Social responsibility
                               </h2>
                             </a>
@@ -224,7 +224,7 @@ const Profile = () => {
                       </div>
 
                       {/*   Entrepreneurship and Innovation */}
-                      <div class=" hover:bg-sky-300 bg-sky-700 p-5">
+                      <div class=" hover:bg-sky-300 bg-sky-700 lg:p-5 p-2 md:p-4">
                         <div className="">
                           <div className="items-center w-full text-center ">
                             <FontAwesomeIcon
@@ -234,7 +234,7 @@ const Profile = () => {
                           </div>
                           <div className="">
                             <a href="#Innovation">
-                              <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
+                              <h2 className=" lg:text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Entrepreneurship and Innovation
                               </h2>
                             </a>
@@ -243,7 +243,7 @@ const Profile = () => {
                       </div>
                       {/* Application Process end*/}
                     </div>
-                    <div className="px-12  ">
+                    <div className="px-7  ">
                       <div id="ethics">
                         <p className="text-justify">
                           {' '}
@@ -339,9 +339,9 @@ const Profile = () => {
                 </div>
               </div>
 
-              <div className="lg:mx-10 pb-10 px-10">
+              <div className="lg:px-14 pb-10 px-7">
                 <div className="lg:w-full  mb-2   ">
-                  <p className="font-bold text-xl text-primary">
+                  <p className="font-bold lg:text-xl text-primary">
                     <span className=" text-primary ">Our Strategy</span>
                   </p>
                 </div>
@@ -365,7 +365,7 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <h1 className="text-xl text-white">
+                      <h1 className="lg:text-xl text-white">
                         Innovative Solutions
                       </h1>
 
@@ -394,7 +394,7 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <h1 className="text-xl mb-3 text-white">
+                      <h1 className="lg:text-xl mb-3 text-white">
                         Ethical Leadership
                       </h1>
 
@@ -455,7 +455,7 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <h1 className="text-xl text-white  mb-3">
+                      <h1 className="lg:text-xl text-white  mb-3">
                         Positive Impact
                       </h1>
                       <p className="mb-3 text-white text-justify">
@@ -486,7 +486,7 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <h1 className="text-xl mb-3 text-white">
+                      <h1 className="lg:text-xl mb-3 text-white">
                         Expanding partnerships and collaborations
                       </h1>
                       <p className="mb-3 text-white text-justify">
