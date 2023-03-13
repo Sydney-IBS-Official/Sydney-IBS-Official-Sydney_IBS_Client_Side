@@ -1,17 +1,24 @@
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faPrint } from '@fortawesome/free-solid-svg-icons';
+import { ReactToPrint, useReactToPrint } from 'react-to-print';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
 
-import React from 'react';
+import React, { useRef } from 'react';
 import about_1 from '../../../Carosel/Asset/About Us/About-Us.jpg';
 import mission from '../../../Carosel/Asset/About Us/mission.png';
 import principles from '../../../Carosel/Asset/About Us/about.jpg';
 import strategy from '../../../Carosel/Asset/strategy.jpg';
 
 const Profile = () => {
+  const componentRef = useRef();
+  const printPage = useReactToPrint({
+    content: () => componentRef.current,
+    documentTitle: 'About Page',
+  });
+
   return (
     <>
-      <div className="container mx-auto  lg:mb-16 lg:mt-7 ">
+      <div ref={componentRef} className="container mx-auto  lg:mb-16 lg:mt-7 ">
         <div className="lg:mx-[110px]  ">
           <div className="shadow">
             <div className=" lg:w-full    ">
@@ -35,11 +42,18 @@ const Profile = () => {
                       <p className="text-black "> Profile | Vision & Mission</p>
                     </li>
                   </ul>
+                   <p className='flex justify-end' onClick={printPage}>
+                  <FontAwesomeIcon
+                    icon={faPrint}
+                    className="h-6 w-4 px-1  "
+                  ></FontAwesomeIcon>
+                </p>
 
                   {/* breadcrumb ended  */}
                 </div>
 
                 {/* About Us summary */}
+               
 
                 <div className="lg:w-full  mt-5   mx-12">
                   <span className=" text-xl font-bold text-primary  ">
@@ -201,7 +215,7 @@ const Profile = () => {
                   </div>
                   <div className=""></div> */}
                   <div className="lg:mx-auto lg:mt-5  pb-2">
-                    <div className="w-50 text-xl  font-bold cursor-pointer   text-center sm:mt-5">
+                    <div className="w-50 text-xl  font-bold text-center sm:mt-5">
                       <button className="bg-sky-700  px-10 pb-5 pt-5 ">
                         <p className=" text-white  "> Our 6 Principles</p>
                       </button>
@@ -228,7 +242,7 @@ const Profile = () => {
                         </div>
                       </div>
 
-                      {/* Program structure */}
+                      {/*   Academic excellence */}
                       <div class=" hover:bg-sky-300 bg-sky-700 p-5">
                         <div className="">
                           <div className="items-center w-full text-center ">
@@ -238,7 +252,7 @@ const Profile = () => {
                             ></FontAwesomeIcon>
                           </div>
                           <div className="">
-                            <a href="#structure">
+                            <a href="#Academic">
                               {' '}
                               <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Academic excellence
@@ -259,7 +273,7 @@ const Profile = () => {
                             ></FontAwesomeIcon>
                           </div>
                           <div className="">
-                            <a href="#Admission">
+                            <a href="#Research">
                               {' '}
                               <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Research and scholarship
@@ -279,7 +293,7 @@ const Profile = () => {
                             ></FontAwesomeIcon>
                           </div>
                           <div className="">
-                            <a href="#outcome">
+                            <a href="#Diversity">
                               <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Diversity and inclusivity
                               </h2>
@@ -288,7 +302,7 @@ const Profile = () => {
                         </div>
                       </div>
 
-                      {/* Fees | Scholarship */}
+                      {/*   Social responsibility */}
                       <div class=" hover:bg-sky-300 bg-sky-700 p-5">
                         <div className="">
                           <div className="items-center w-full text-center ">
@@ -298,7 +312,7 @@ const Profile = () => {
                             ></FontAwesomeIcon>
                           </div>
                           <div className="">
-                            <a href="#Fees">
+                            <a href="#Social">
                               <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Social responsibility
                               </h2>
@@ -307,7 +321,7 @@ const Profile = () => {
                         </div>
                       </div>
 
-                      {/* Application Process */}
+                      {/*   Entrepreneurship and Innovation */}
                       <div class=" hover:bg-sky-300 bg-sky-700 p-5">
                         <div className="">
                           <div className="items-center w-full text-center ">
@@ -317,7 +331,7 @@ const Profile = () => {
                             ></FontAwesomeIcon>
                           </div>
                           <div className="">
-                            <a href="#Application">
+                            <a href="#Innovation">
                               <h2 className=" text-xl font-bold cursor-pointer  text-white text-center p-2">
                                 Entrepreneurship and Innovation
                               </h2>
@@ -345,67 +359,79 @@ const Profile = () => {
                           around the world.
                         </p>
                       </div>
-                      <p className="text-justify mt-1 ">
-                        {' '}
-                        <span className="font-bold ">
-                          Academic excellence:{' '}
-                        </span>
-                        We strive for academic excellence in all our programs
-                        and curricula, ensuring that our graduates are equipped
-                        with the necessary knowledge and skills to excel in
-                        their respective fields. Our curricula are on par with
-                        top Islamic business schools worldwide. Our faculty
-                        fosters innovation and collaboration continually
-                        improving our programs and curricula to meet the needs
-                        of our students and the industry.
-                      </p>
-                      <p className="text-justify ">
-                        <span className="font-bold ">
-                          Research and scholarship:
-                        </span>{' '}
-                        We support interdisciplinary research in Islamic
-                        business and finance, contributing to the development of
-                        Islamic finance and business practices in the wider
-                        economic and social context. We encourage our faculty
-                        and students to engage in research that addresses
-                        real-world problems and has practical implications for
-                        the industry and society.
-                      </p>
-                      <p className="text-justify my-2 ">
-                        <span className="font-bold ">
-                          Diversity and inclusivity:
-                        </span>{' '}
-                        We welcome students from all backgrounds and cultures to
-                        our diverse and inclusive community, where everyone is
-                        valued and respected. We are committed to creating a
-                        safe and supportive learning and working environment
-                        that promotes mutual respect, understanding, and
-                        inclusivity.
-                      </p>
-                      <p className="text-justify ">
-                        <span className="font-bold ">
-                          Social responsibility:
-                        </span>{' '}
-                        We are committed to promoting ethical business
-                        practices, social responsibility, and sustainability in
-                        all our academic and organisational activities. We
-                        emphasise the importance of these values to our students
-                        and faculty and encourage them to be agents of positive
-                        change in their communities and workplaces.
-                      </p>
-                      <p className="text-justify ">
-                        <span className="font-bold ">
-                          Entrepreneurship and Innovation:
-                        </span>{' '}
-                        We will encourage entrepreneurship and innovation in
-                        Islamic business and finance. Our Islamic Business
-                        Incubator will provide support for students and alumni
-                        who wish to start their own businesses that promote
-                        sustainable development. We will work with startups,
-                        social enterprises, and other organisations to drive
-                        innovation and support sustainable growth in the Islamic
-                        economy.
-                      </p>
+                      <div id="Academic">
+                        <p className="text-justify mt-1 ">
+                          {' '}
+                          <span className="font-bold ">
+                            Academic excellence:{' '}
+                          </span>
+                          We strive for academic excellence in all our programs
+                          and curricula, ensuring that our graduates are
+                          equipped with the necessary knowledge and skills to
+                          excel in their respective fields. Our curricula are on
+                          par with top Islamic business schools worldwide. Our
+                          faculty fosters innovation and collaboration
+                          continually improving our programs and curricula to
+                          meet the needs of our students and the industry.
+                        </p>
+                      </div>
+                      <div id="Research">
+                        <p className="text-justify ">
+                          <span className="font-bold ">
+                            Research and scholarship:
+                          </span>{' '}
+                          We support interdisciplinary research in Islamic
+                          business and finance, contributing to the development
+                          of Islamic finance and business practices in the wider
+                          economic and social context. We encourage our faculty
+                          and students to engage in research that addresses
+                          real-world problems and has practical implications for
+                          the industry and society.
+                        </p>
+                      </div>
+
+                      <div id="Diversity">
+                        <p className="text-justify my-2 ">
+                          <span className="font-bold ">
+                            Diversity and inclusivity:
+                          </span>{' '}
+                          We welcome students from all backgrounds and cultures
+                          to our diverse and inclusive community, where everyone
+                          is valued and respected. We are committed to creating
+                          a safe and supportive learning and working environment
+                          that promotes mutual respect, understanding, and
+                          inclusivity.
+                        </p>
+                      </div>
+                      <div id="Social">
+                        <p className="text-justify ">
+                          <span className="font-bold ">
+                            Social responsibility:
+                          </span>{' '}
+                          We are committed to promoting ethical business
+                          practices, social responsibility, and sustainability
+                          in all our academic and organisational activities. We
+                          emphasise the importance of these values to our
+                          students and faculty and encourage them to be agents
+                          of positive change in their communities and
+                          workplaces.
+                        </p>
+                      </div>
+                      <div id="Innovation">
+                        <p className="text-justify ">
+                          <span className="font-bold ">
+                            Entrepreneurship and Innovation:
+                          </span>{' '}
+                          We will encourage entrepreneurship and innovation in
+                          Islamic business and finance. Our Islamic Business
+                          Incubator will provide support for students and alumni
+                          who wish to start their own businesses that promote
+                          sustainable development. We will work with startups,
+                          social enterprises, and other organisations to drive
+                          innovation and support sustainable growth in the
+                          Islamic economy.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -426,7 +452,7 @@ const Profile = () => {
                 </p>
                 <div className="">
                   {/* Innovative Solutions */}
-                  <div className="lg:flex  bg-[#336AA1] shadow p-3 mb-5 gap-5 ">
+                  <div className="lg:flex  bg-[#336AA1] hover:bg-sky-300 shadow p-3 mb-5 gap-5 ">
                     {/* <div className="flex justify-center items-center">
                       <a href="/AcademicStructure">
                         <img
@@ -437,12 +463,9 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <a
-                        href="/AcademicStructure"
-                        className="text-xl text-white"
-                      >
+                      <h1 className="text-xl text-white">
                         Innovative Solutions
-                      </a>
+                      </h1>
 
                       <p className="mb-3 text-white mt-3 text-justify">
                         We will be thought leaders who put our ideas into action
@@ -458,7 +481,7 @@ const Profile = () => {
                   </div>
 
                   {/* Ethical Leadership*/}
-                  <div className="lg:flex bg-sky-700 shadow p-3 mb-5 gap-5">
+                  <div className="lg:flex bg-[#336AA1] hover:bg-sky-300 shadow p-3 mb-5 gap-5">
                     {/* <div className="flex justify-center items-center">
                       <a href="/LeadershipGovernence">
                         <img
@@ -519,7 +542,7 @@ const Profile = () => {
 
                   {/*   Positive Impact */}
 
-                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                  <div className="lg:flex bg-[#336AA1] hover:bg-sky-300  p-3 mb-5 gap-5">
                     {/* <div className="flex justify-center items-center">
                       <a href="#">
                         <img
@@ -530,30 +553,27 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <a href="/people">
-                        <p className="text-xl text-white  mb-3">
-                          Positive Impact
-                        </p>
-                        <p className="mb-3 text-white text-justify">
-                          We are making important contributions to the global
-                          impact economy. Our community partners with
-                          organisations to solve real-world challenges, generate
-                          prosperity, and create a positive impact. We provide
-                          consulting support to small businesses and non-profits
-                          through initiatives that promote ethical business
-                          practices, social responsibility, and sustainability.
-                          Faculty and students have also played a critical role
-                          in developing Islamic finance and business practices
-                          that contribute to the wider economic and social
-                          context.
-                        </p>
-                      </a>
+                      <h1 className="text-xl text-white  mb-3">
+                        Positive Impact
+                      </h1>
+                      <p className="mb-3 text-white text-justify">
+                        We are making important contributions to the global
+                        impact economy. Our community partners with
+                        organisations to solve real-world challenges, generate
+                        prosperity, and create a positive impact. We provide
+                        consulting support to small businesses and non-profits
+                        through initiatives that promote ethical business
+                        practices, social responsibility, and sustainability.
+                        Faculty and students have also played a critical role in
+                        developing Islamic finance and business practices that
+                        contribute to the wider economic and social context.
+                      </p>
                     </div>
                   </div>
 
                   {/*     Expanding partnerships and collaborations */}
 
-                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                  <div className="lg:flex bg-[#336AA1] hover:bg-sky-300  p-3 mb-5 gap-5">
                     {/* <div className="flex justify-center items-center">
                       <a href="#">
                         <img
@@ -564,23 +584,21 @@ const Profile = () => {
                       </a>
                     </div> */}
                     <div className="lg:w-full w-full">
-                      <a href="#">
-                        <p className="text-xl mb-3 text-white">
-                          Expanding partnerships and collaborations
-                        </p>
-                        <p className="mb-3 text-white text-justify">
-                          We seek to establish partnerships and collaborations
-                          with industry, government, and academic institutions
-                          locally and internationally, to enhance our research
-                          and academic programs, and create opportunities for
-                          our students and faculty to engage in global academic
-                          and industry networks.
-                        </p>
-                      </a>
+                      <h1 className="text-xl mb-3 text-white">
+                        Expanding partnerships and collaborations
+                      </h1>
+                      <p className="mb-3 text-white text-justify">
+                        We seek to establish partnerships and collaborations
+                        with industry, government, and academic institutions
+                        locally and internationally, to enhance our research and
+                        academic programs, and create opportunities for our
+                        students and faculty to engage in global academic and
+                        industry networks.
+                      </p>
                     </div>
                   </div>
                 </div>
-                <p className='text-justify'>
+                <p className="text-justify">
                   By focusing on these key areas, we will continue to fulfill
                   our mission of providing exceptional Islamic business
                   education to our students, preparing them to become leaders in
@@ -589,97 +607,6 @@ const Profile = () => {
                 </p>
               </div>
 
-              {/* Sibs strategy */}
-              {/* <div className="full mt-5 mb-3 mx-20">
-                <p className="font-bold text-xl text-primary ">Our Strategy</p>
-              </div>
-
-              <div className=" lg:flex px-20">
-                <div className=" w-full  lg:mr-10">
-                  <p className="text-justify  ">
-                    {' '}
-                    At Sydney Islamic Business School, we are committed to
-                    unlocking the potential of business by developing powerful
-                    ideas, purpose-driven leaders, and a community dedicated to
-                    making a positive impact. Our strategy is focused on the
-                    following key areas:
-                  </p>
-                  <p className="text-justify mt-1 ">
-                    {' '}
-                    <span className="font-bold ">Innovative Solutions</span>: We
-                    will be thought leaders who put our ideas into action to
-                    tackle some of the world's most important challenges. We
-                    will conduct rigorous research that informs the most
-                    important conversations in Islamic business and finance,
-                    such as the future of Islamic banking, halal industry, and
-                    entrepreneurship in the world. We will work with leading
-                    companies to apply our ideas and create positive change in
-                    society.
-                  </p>
-                  <p className="text-justify my-2 ">
-                    {' '}
-                    <span className="font-bold ">Ethical Leadership:</span>
-                    We will develop ethical leaders who make a positive
-                    difference. Our action-based learning curricula connect
-                    students to real-world business experiences with Islamic
-                    values and ethics at the core. Our centres of excellence in
-                    leadership and positive organisations allow students to
-                    discover a deep sense of purpose. Our Islamic Business
-                    Incubator will help students launch successful startups that
-                    promote sustainable development.
-                  </p>
-                  <p className="text-justify ">
-                    <span className="font-bold ">
-                      Entrepreneurship and Innovation:
-                    </span>{' '}
-                    We will encourage entrepreneurship and innovation in Islamic
-                    business and finance. Our Islamic Business Incubator will
-                    provide support for students and alumni who wish to start
-                    their own businesses that promote sustainable development.
-                    We will work with startups, social enterprises, and other
-                    organisations to drive innovation and support sustainable
-                    growth in the Islamic economy.
-                  </p>
-                  <p className="text-justify my-2 ">
-                    <span className="font-bold ">Positive Impact:</span> We are
-                    making important contributions to the global impact economy.
-                    Our community partners with organisations to solve
-                    real-world challenges, generate prosperity, and create a
-                    positive impact. We provide consulting support to small
-                    businesses and non-profits through initiatives that promote
-                    ethical business practices, social responsibility, and
-                    sustainability. Faculty and students have also played a
-                    critical role in developing Islamic finance and business
-                    practices that contribute to the wider economic and social
-                    context.
-                  </p>
-                  <p className="text-justify ">
-                    <span className="font-bold ">
-                      Expanding partnerships and collaborations:
-                    </span>{' '}
-                    We seek to establish partnerships and collaborations with
-                    industry, government, and academic institutions locally and
-                    internationally, to enhance our research and academic
-                    programs, and create opportunities for our students and
-                    faculty to engage in global academic and industry networks.
-                  </p>
-                  <p className="text-justify mt-2 ">
-                    By focusing on these key areas, we will continue to fulfill
-                    our mission of providing exceptional Islamic business
-                    education to our students, preparing them to become leaders
-                    in their respective fields and promoting positive change in
-                    society.
-                  </p>
-                </div>
-                <div className="lg:w-3/6 flex justify-center     ">
-                  <img
-                    src={strategy}
-                    className=" md:h-[400px]   w-full md:mt-3"
-                    alt=""
-                   
-                  />
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
