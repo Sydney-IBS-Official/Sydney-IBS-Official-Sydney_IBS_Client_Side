@@ -28,12 +28,7 @@ const Profile = () => {
                 <div className="text-md breadcrumbs md:px-6  mx-6 ">
                   <ul className="text-sky-700  border-b-4 border-sky-700">
                     <li>
-                      <a href="/">
-                        <FontAwesomeIcon
-                          icon={faHouse}
-                          className="h-6 w-4 px-1  "
-                        ></FontAwesomeIcon>
-                      </a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
                       <p className="">About Us</p>
@@ -42,18 +37,17 @@ const Profile = () => {
                       <p className="text-black "> Profile | Vision & Mission</p>
                     </li>
                   </ul>
-                   <p className='flex justify-end' onClick={printPage}>
-                  <FontAwesomeIcon
-                    icon={faPrint}
-                    className="h-6 w-4 px-1  "
-                  ></FontAwesomeIcon>
-                </p>
+                  <p className="flex justify-end" onClick={printPage}>
+                    <FontAwesomeIcon
+                      icon={faPrint}
+                      className="h-6 w-4 px-1  "
+                    ></FontAwesomeIcon>
+                  </p>
 
                   {/* breadcrumb ended  */}
                 </div>
 
                 {/* About Us summary */}
-               
 
                 <div className="lg:w-full  mt-5   mx-12">
                   <span className=" text-xl font-bold text-primary  ">
@@ -122,98 +116,6 @@ const Profile = () => {
 
                 {/* sibs Principles */}
                 <div className="w-full">
-                  {/* <div className="lg:w-full text-justify mt-5 mb-3 mx-12">
-                    <p className="font-bold text-xl text-primary ">
-                      Our  Principles
-                    </p>
-                    <p className="text-justify my-3 ">
-                      Sydney Islamic Business School principals guide all
-                      aspects of our academic and organizational practices. Our
-                      principles include.
-                    </p>
-                  </div> */}
-
-                  {/* <div className="w-full  px-12 lg:flex">
-                    <div className="lg:w-3/6 mr-12 md:w-full flex justify-center    ">
-                      <img
-                        src={principles}
-                        className=" md:h-[400px] sm:h-[200px]  w-full md:mt-3"
-                        alt=""
-                        
-                      />
-                    </div>
-                    <div className=" w-full ">
-                      <p className="text-justify ">
-                        Sydney Islamic Business School principals guide all
-                        aspects of our academic and organizational practices.
-                        Our principles include.
-                      </p>
-                      <p className="text-justify ">
-                        {' '}
-                        <span className="font-bold ">
-                          Islamic values and ethics:
-                        </span>{' '}
-                        We are committed to upholding Islamic values and ethics
-                        in all our academic activities and operations. This
-                        includes ensuring compliance with the high standards of
-                        the Australian Higher Education Legal Framework while
-                        incorporating Islamic values and ethics into all aspects
-                        of its operations. The school's syllabus is curated with
-                        inputs from renowned Islamic business academia and
-                        industry experts from around the world.
-                      </p>
-                      <p className="text-justify mt-1 ">
-                        {' '}
-                        <span className="font-bold ">
-                          Academic excellence:{' '}
-                        </span>
-                        We strive for academic excellence in all our programs
-                        and curricula, ensuring that our graduates are equipped
-                        with the necessary knowledge and skills to excel in
-                        their respective fields. Our curricula are on par with
-                        top Islamic business schools worldwide. Our faculty
-                        fosters innovation and collaboration continually
-                        improving our programs and curricula to meet the needs
-                        of our students and the industry.
-                      </p>
-                      <p className="text-justify ">
-                        <span className="font-bold ">
-                          Research and scholarship:
-                        </span>{' '}
-                        We support interdisciplinary research in Islamic
-                        business and finance, contributing to the development of
-                        Islamic finance and business practices in the wider
-                        economic and social context. We encourage our faculty
-                        and students to engage in research that addresses
-                        real-world problems and has practical implications for
-                        the industry and society.
-                      </p>
-                      <p className="text-justify my-2 ">
-                        <span className="font-bold ">
-                          Diversity and inclusivity:
-                        </span>{' '}
-                        We welcome students from all backgrounds and cultures to
-                        our diverse and inclusive community, where everyone is
-                        valued and respected. We are committed to creating a
-                        safe and supportive learning and working environment
-                        that promotes mutual respect, understanding, and
-                        inclusivity.
-                      </p>
-                      <p className="text-justify ">
-                        <span className="font-bold ">
-                          Social responsibility:
-                        </span>{' '}
-                        Social responsibility: We are committed to promoting
-                        ethical business practices, social responsibility, and
-                        sustainability in all our academic and organisational
-                        activities. We emphasise the importance of these values
-                        to our students and faculty and encourage them to be
-                        agents of positive change in their communities and
-                        workplaces.
-                      </p>
-                    </div>
-                  </div>
-                  <div className=""></div> */}
                   <div className="lg:mx-auto lg:mt-5  pb-2">
                     <div className="w-50 text-xl  font-bold text-center sm:mt-5">
                       <button className="bg-sky-700  px-10 pb-5 pt-5 ">
@@ -606,7 +508,6 @@ const Profile = () => {
                   society.
                 </p>
               </div>
-
             </div>
           </div>
         </div>
