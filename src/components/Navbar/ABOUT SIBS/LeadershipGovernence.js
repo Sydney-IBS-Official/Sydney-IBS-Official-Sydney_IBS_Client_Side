@@ -13,15 +13,17 @@ const LeadershipGovernence = () => {
               <div className=" bg-base-100  py-3 pb-10  ">
                 {/* Breadcrumb added here */}
                 <div className="text-md breadcrumbs md:px-6 lg:px-6 px-3  lg:mx-[55px] ">
-                  <ul className="border-b-4 border-sky-700">
+                  <ul className="border-b-4 border-sky-700 ">
                     <li>
-                      <Link to="/" className="font-bold">Home</Link>
+                      <Link to="/" className="font-semibold text-sky-700">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <p className="font-bold">About Us</p>
+                      <p className="font-semibold text-sky-700">About Us</p>
                     </li>
                     <li>
-                      <p className="font-bold">Governance Structure</p>
+                      <p className="font-semibold">Governance Structure</p>
                     </li>
                   </ul>
 
@@ -36,7 +38,7 @@ const LeadershipGovernence = () => {
                   {/* Governance body details  */}
 
                   <div className="-mt-10">
-                    <h1 className="text-2xl px-3 font-bold  lg:mx-16 ">
+                    <h1 className="text-xl px-3 font-bold  lg:mx-16 ">
                       <a href="#">Board of Trustees</a>
                     </h1>
                     <p className="lg:mx-16 px-3 text-justify">
@@ -46,7 +48,7 @@ const LeadershipGovernence = () => {
                     </p>
 
                     {/* CEO and President  */}
-                    <h1 className="text-2xl px-4  font-bold  lg:mx-16  mt-5 ">
+                    <h1 className="text-xl px-4  font-bold  lg:mx-16  mt-5 ">
                       <p className="border-b-2 border-gray-400">
                         {' '}
                         CEO and President
@@ -61,7 +63,7 @@ const LeadershipGovernence = () => {
 
                     {/* Board Committees  */}
                     <div>
-                      <h1 className="text-2xl px-4 font-bold  lg:mx-16 mt-5 ">
+                      <h1 className="text-xl px-4 font-bold  lg:mx-16 mt-5 ">
                         <p className="border-b-2 border-gray-400">
                           Board Committees
                         </p>
@@ -75,7 +77,7 @@ const LeadershipGovernence = () => {
 
                     {/* Academic Senate  */}
                     <div>
-                      <h1 className="text-2xl px-4 font-bold  lg:mx-16 mt-5  ">
+                      <h1 className="text-xl px-4 font-bold  lg:mx-16 mt-5  ">
                         <p className="border-b-2 border-gray-400">
                           Academic Senate
                         </p>

@@ -8,6 +8,7 @@ import about_1 from '../../../Carosel/Asset/About Us/About-Us.jpg';
 import mission from '../../../Carosel/Asset/About Us/mission.png';
 import principles from '../../../Carosel/Asset/About Us/about.jpg';
 import strategy from '../../../Carosel/Asset/strategy.jpg';
+import { Link } from 'react-router-dom';
 
 const Profile = () => {
   const componentRef = useRef();
@@ -26,15 +27,20 @@ const Profile = () => {
                 {/* breadcrumb added here */}
 
                 <div className="text-md breadcrumbs md:px-6 px-6 lg:px-7  ">
-                  <ul className="text-sky-700  border-b-4 border-sky-700">
+                  <ul className="  border-b-4 border-sky-700">
                     <li>
-                      <a href="/">Home</a>
+                      <Link href="/" className="font-semibold text-sky-700">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <p className="">About Us</p>
+                      <p className="font-semibold text-sky-700">About Us</p>
                     </li>
                     <li>
-                      <p className="text-black "> Profile | Vision & Mission</p>
+                      <p className="font-semibold  ">
+                        {' '}
+                        Profile | Vision & Mission
+                      </p>
                     </li>
                   </ul>
                   <p className="flex justify-end" onClick={printPage}>
