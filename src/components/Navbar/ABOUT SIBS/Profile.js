@@ -98,7 +98,7 @@ const Profile = () => {
                     <div className="lg:w-4/6  flex justify-center    ">
                       <img
                         src={about_1}
-                        className=" md:h-[400px]  w-full md:mt-3"
+                        className=" md:h-[400px]  w-full md:mt-3 mb-5"
                         alt=""
                         // className="h-52 w-[350px]  "
                       />
@@ -201,7 +201,7 @@ const Profile = () => {
                   </div>
                   <div className=""></div> */}
                   <div className="lg:mx-auto lg:mt-5  pb-2">
-                    <div className="w-50 text-xl  font-bold cursor-pointer   text-center">
+                    <div className="w-50 text-xl  font-bold cursor-pointer   text-center sm:mt-5">
                       <button className="bg-sky-700  px-10 pb-5 pt-5 ">
                         <p className=" text-white  "> Our 6 Principles</p>
                       </button>
@@ -426,8 +426,8 @@ const Profile = () => {
                 </p>
                 <div className="">
                   {/* Innovative Solutions */}
-                  <div className="lg:flex  bg-sky-700 shadow p-3 mb-5 gap-5 ">
-                    <div className="flex justify-center items-center">
+                  <div className="lg:flex  bg-[#336AA1] shadow p-3 mb-5 gap-5 ">
+                    {/* <div className="flex justify-center items-center">
                       <a href="/AcademicStructure">
                         <img
                           src={about_1}
@@ -435,8 +435,8 @@ const Profile = () => {
                           className="lg:h-28 lg:w-[200px]  w-full"
                         />
                       </a>
-                    </div>
-                    <div className="lg:w-[75%] w-full">
+                    </div> */}
+                    <div className="lg:w-full w-full">
                       <a
                         href="/AcademicStructure"
                         className="text-xl text-white"
@@ -459,7 +459,7 @@ const Profile = () => {
 
                   {/* Ethical Leadership*/}
                   <div className="lg:flex bg-sky-700 shadow p-3 mb-5 gap-5">
-                    <div className="flex justify-center items-center">
+                    {/* <div className="flex justify-center items-center">
                       <a href="/LeadershipGovernence">
                         <img
                           src={about_1}
@@ -467,31 +467,28 @@ const Profile = () => {
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
                       </a>
-                    </div>
-                    <div className="lg:w-[75%] w-full">
-                      <a href="/LeadershipGovernence">
-                        <p className="text-xl mb-3 text-white">
-                          Ethical Leadership
-                        </p>
+                    </div> */}
+                    <div className="lg:w-full w-full">
+                      <h1 className="text-xl mb-3 text-white">
+                        Ethical Leadership
+                      </h1>
 
-                        <p className="mb-3 text-white text-justify">
-                          We will develop ethical leaders who make a positive
-                          difference. Our action-based learning curricula
-                          connect students to real-world business experiences
-                          with Islamic values and ethics at the core. Our
-                          centres of excellence in leadership and positive
-                          organisations allow students to discover a deep sense
-                          of purpose. Our Islamic Business Incubator will help
-                          students launch successful startups that promote
-                          sustainable development.
-                        </p>
-                      </a>
+                      <p className="mb-3 text-white text-justify">
+                        We will develop ethical leaders who make a positive
+                        difference. Our action-based learning curricula connect
+                        students to real-world business experiences with Islamic
+                        values and ethics at the core. Our centres of excellence
+                        in leadership and positive organisations allow students
+                        to discover a deep sense of purpose. Our Islamic
+                        Business Incubator will help students launch successful
+                        startups that promote sustainable development.
+                      </p>
                     </div>
                   </div>
 
                   {/* Entrepreneurship and Innovation */}
 
-                  <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
+                  {/* <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
                     <div className="flex justify-center items-center">
                       <a href="#">
                         <img
@@ -501,7 +498,7 @@ const Profile = () => {
                         />
                       </a>
                     </div>
-                    <div className="lg:w-[75%] w-full ">
+                    <div className="lg:w-full w-full ">
                       <a href="#">
                         <p className="text-xl text-white mb-3">
                           Entrepreneurship and Innovation
@@ -518,12 +515,12 @@ const Profile = () => {
                         </p>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/*   Positive Impact */}
 
                   <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-                    <div className="flex justify-center items-center">
+                    {/* <div className="flex justify-center items-center">
                       <a href="#">
                         <img
                           src={about_1}
@@ -531,8 +528,8 @@ const Profile = () => {
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
                       </a>
-                    </div>
-                    <div className="lg:w-[75%] w-full">
+                    </div> */}
+                    <div className="lg:w-full w-full">
                       <a href="/people">
                         <p className="text-xl text-white  mb-3">
                           Positive Impact
@@ -557,7 +554,7 @@ const Profile = () => {
                   {/*     Expanding partnerships and collaborations */}
 
                   <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-                    <div className="flex justify-center items-center">
+                    {/* <div className="flex justify-center items-center">
                       <a href="#">
                         <img
                           src={about_1}
@@ -565,8 +562,8 @@ const Profile = () => {
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
                       </a>
-                    </div>
-                    <div className="lg:w-[75%] w-full">
+                    </div> */}
+                    <div className="lg:w-full w-full">
                       <a href="#">
                         <p className="text-xl mb-3 text-white">
                           Expanding partnerships and collaborations
@@ -583,7 +580,7 @@ const Profile = () => {
                     </div>
                   </div>
                 </div>
-                <p>
+                <p className='text-justify'>
                   By focusing on these key areas, we will continue to fulfill
                   our mission of providing exceptional Islamic business
                   education to our students, preparing them to become leaders in
