@@ -7,7 +7,10 @@ import React, { useRef } from 'react';
 import about_1 from '../../../Carosel/Asset/About Us/About-Us.jpg';
 import mission from '../../../Carosel/Asset/About Us/mission.png';
 import principles from '../../../Carosel/Asset/About Us/about.jpg';
-import strategy from '../../../Carosel/Asset/strategy.jpg';
+import strategy_1 from '../../../Carosel/Asset/People/strategy-1.jpg';
+import strategy_2 from '../../../Carosel/Asset/People/strategy-2.jpg';
+import strategy_3 from '../../../Carosel/Asset/People/strategy-3.jpg';
+import strategy_4 from '../../../Carosel/Asset/People/strategy-4.jpg';
 import { Link } from 'react-router-dom';
 
 const Profile = () => {
@@ -19,14 +22,14 @@ const Profile = () => {
 
   return (
     <>
-      <div ref={componentRef} className="container mx-auto  lg:mb-16  ">
-        <div className="lg:mx-[110px]  ">
-          <div className="shadow">
-            <div className=" lg:w-full    ">
-              <div className=" bg-base-100 lg:px-8  py-3   ">
+      <div ref={componentRef} className="container mx-auto    ">
+        <div className="lg:mx-[170px]  ">
+          <div className="shadow-sm">
+            <div className=" lg:w-full     ">
+              <div className=" bg-base-100 lg:px-5  py-3    ">
                 {/* breadcrumb added here */}
 
-                <div className="text-md breadcrumbs md:px-6 px-6 lg:px-7  ">
+                <div className="text-md breadcrumbs md:px-6 px-6   ">
                   <ul className="  border-b-4 border-sky-700">
                     <li>
                       <Link href="/" className="font-semibold text-sky-700">
@@ -55,7 +58,7 @@ const Profile = () => {
 
                 {/* About Us summary */}
 
-                <div className="lg:w-full  mt-5   px-7">
+                <div className="lg:w-full    px-7">
                   <span className=" text-xl font-bold text-primary  ">
                     About Us
                   </span>
@@ -358,16 +361,14 @@ const Profile = () => {
                   </p>
                   <div className="">
                     {/* Innovative Solutions */}
-                    <div className="lg:flex  bg-[#336AA1] hover:bg-sky-300 shadow p-3 mb-5 gap-5 ">
-                      {/* <div className="flex justify-center items-center">
-                      <a href="/AcademicStructure">
+                    <div className="lg:flex  bg-[#336AA1]  p-3 mb-5 gap-5 ">
+                      <div className="flex justify-center items-center">
                         <img
-                          src={about_1}
+                          src={strategy_1}
                           alt=""
                           className="lg:h-28 lg:w-[200px]  w-full"
                         />
-                      </a>
-                    </div> */}
+                      </div>
                       <div className="lg:w-full w-full">
                         <h1 className="lg:text-xl text-white">
                           Innovative Solutions
@@ -387,16 +388,14 @@ const Profile = () => {
                     </div>
 
                     {/* Ethical Leadership*/}
-                    <div className="lg:flex bg-[#336AA1] hover:bg-sky-300 shadow p-3 mb-5 gap-5">
-                      {/* <div className="flex justify-center items-center">
-                      <a href="/LeadershipGovernence">
+                    <div className="lg:flex bg-[#336AA1]  p-3 mb-5 gap-5">
+                      <div className="flex justify-center items-center">
                         <img
-                          src={about_1}
+                          src={strategy_2}
                           alt=""
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
-                      </a>
-                    </div> */}
+                      </div>
                       <div className="lg:w-full w-full">
                         <h1 className="lg:text-xl mb-3 text-white">
                           Ethical Leadership
@@ -416,49 +415,16 @@ const Profile = () => {
                       </div>
                     </div>
 
-                    {/* Entrepreneurship and Innovation */}
-
-                    {/* <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-                    <div className="flex justify-center items-center">
-                      <a href="#">
-                        <img
-                          src={about_1}
-                          alt=""
-                          className="lg:h-28 lg:w-[200px]  w-full"
-                        />
-                      </a>
-                    </div>
-                    <div className="lg:w-full w-full ">
-                      <a href="#">
-                        <p className="text-xl text-white mb-3">
-                          Entrepreneurship and Innovation
-                        </p>
-                        <p className="mb-3 text-white text-justify">
-                          We will encourage entrepreneurship and innovation in
-                          Islamic business and finance. Our Islamic Business
-                          Incubator will provide support for students and alumni
-                          who wish to start their own businesses that promote
-                          sustainable development. We will work with startups,
-                          social enterprises, and other organisations to drive
-                          innovation and support sustainable growth in the
-                          Islamic economy.
-                        </p>
-                      </a>
-                    </div>
-                  </div> */}
-
                     {/*   Positive Impact */}
 
-                    <div className="lg:flex bg-[#336AA1] hover:bg-sky-300  p-3 mb-5 gap-5">
-                      {/* <div className="flex justify-center items-center">
-                      <a href="#">
+                    <div className="lg:flex bg-[#336AA1]  p-3 mb-5 gap-5">
+                      <div className="flex justify-center items-center">
                         <img
-                          src={about_1}
+                          src={strategy_3}
                           alt=""
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
-                      </a>
-                    </div> */}
+                      </div>
                       <div className="lg:w-full w-full">
                         <h1 className="lg:text-xl text-white  mb-3">
                           Positive Impact
@@ -481,16 +447,14 @@ const Profile = () => {
 
                     {/*     Expanding partnerships and collaborations */}
 
-                    <div className="lg:flex bg-[#336AA1] hover:bg-sky-300  p-3 mb-5 gap-5">
-                      {/* <div className="flex justify-center items-center">
-                      <a href="#">
+                    <div className="lg:flex bg-[#336AA1]   p-3 mb-5 gap-5">
+                      <div className="flex justify-center items-center">
                         <img
-                          src={about_1}
+                          src={strategy_4}
                           alt=""
                           className="lg:h-28 lg:w-[200px] w-full"
                         />
-                      </a>
-                    </div> */}
+                      </div>
                       <div className="lg:w-full w-full">
                         <h1 className="lg:text-xl mb-3 text-white">
                           Expanding partnerships and collaborations
