@@ -31,7 +31,7 @@ const Scholar = () => {
 											<p>About Us</p>
 										</li>
 										<li>
-											<a href="/profile"> profile</a>
+											<a href="/profile"> Profile</a>
 										</li>
 										<li>
 											<a href="/people"> Our people</a>

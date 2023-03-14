@@ -39,7 +39,9 @@ const LeadershipGovernence = () => {
 
                   <div className="-mt-10">
                     <h1 className="text-xl px-3 font-bold  lg:mx-10 ">
-                      <a href="#">Board of Trustees</a>
+                      <a href="#" className="text-primary">
+                        Board of Trustees
+                      </a>
                     </h1>
                     <p className="lg:mx-10 px-3 text-justify">
                       The governing authority of the University, the Board
@@ -49,7 +51,7 @@ const LeadershipGovernence = () => {
 
                     {/* CEO and President  */}
                     <h1 className="text-xl px-3  font-bold  lg:mx-10  mt-5 ">
-                      <p className="border-b-2 border-gray-400">
+                      <p className="border-b-2 border-gray-400 text-primary">
                         {' '}
                         CEO and President
                       </p>
@@ -64,7 +66,7 @@ const LeadershipGovernence = () => {
                     {/* Board Committees  */}
                     <div className="lg:mx-10">
                       <h1 className="text-xl px-3 font-bold   mt-5 ">
-                        <p className="border-b-2 border-gray-400">
+                        <p className="border-b-2 border-gray-400 text-primary">
                           Board Committees
                         </p>
                       </h1>
@@ -78,7 +80,7 @@ const LeadershipGovernence = () => {
                     {/* Academic Senate  */}
                     <div className="lg:mx-10">
                       <h1 className="text-xl px-3 font-bold   mt-5  ">
-                        <p className="border-b-2 border-gray-400">
+                        <p className="border-b-2 border-gray-400 text-primary">
                           Academic Senate
                         </p>
                       </h1>

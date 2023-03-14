@@ -361,7 +361,7 @@ const Profile = () => {
                   </p>
                   <div className="">
                     {/* Innovative Solutions */}
-                    <div className="lg:flex  bg-[#336AA1]  p-3 mb-5 gap-5 ">
+                    <div className="lg:flex  bg-primary  p-3 mb-5 gap-5 ">
                       <div className="flex justify-center items-center">
                         <img
                           src={strategy_1}
@@ -388,7 +388,7 @@ const Profile = () => {
                     </div>
 
                     {/* Ethical Leadership*/}
-                    <div className="lg:flex bg-[#336AA1]  p-3 mb-5 gap-5">
+                    <div className="lg:flex bg-primary  p-3 mb-5 gap-5">
                       <div className="flex justify-center items-center">
                         <img
                           src={strategy_2}
@@ -417,7 +417,7 @@ const Profile = () => {
 
                     {/*   Positive Impact */}
 
-                    <div className="lg:flex bg-[#336AA1]  p-3 mb-5 gap-5">
+                    <div className="lg:flex bg-primary  p-3 mb-5 gap-5">
                       <div className="flex justify-center items-center">
                         <img
                           src={strategy_3}
@@ -447,7 +447,7 @@ const Profile = () => {
 
                     {/*     Expanding partnerships and collaborations */}
 
-                    <div className="lg:flex bg-[#336AA1]   p-3 mb-5 gap-5">
+                    <div className="lg:flex bg-primary   p-3 mb-5 gap-5">
                       <div className="flex justify-center items-center">
                         <img
                           src={strategy_4}
