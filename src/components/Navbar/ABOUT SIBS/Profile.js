@@ -32,7 +32,7 @@ const Profile = () => {
                 <div className="text-md breadcrumbs md:px-6 px-6   ">
                   <ul className="  border-b-4 border-sky-700">
                     <li>
-                      <Link href="/" className="font-semibold text-sky-700">
+                      <Link to="/" className="font-semibold text-sky-700">
                         Home
                       </Link>
                     </li>

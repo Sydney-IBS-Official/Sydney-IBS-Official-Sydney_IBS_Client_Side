@@ -13,7 +13,7 @@ const People = () => {
           <div className=" lg:w-full    ">
             <div className=" bg-base-100 lg:px-6 px-3 py-3 pb-10  ">
               {/* breadcrumb start here */}
-              <div className="text-md breadcrumbs md:px-6   ">
+              <div className="text-md breadcrumbs lg:mx-5   ">
                 <ul className="text-sky-700 border-b-4 border-sky-700 ">
                   <li>
                     <a href="/" className='font-semibold'>
