@@ -1,7 +1,7 @@
 import { faChevronRight, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import academicStructure from '../../../Carosel/Asset/Presentation6.jpg';
+import academicStructure from '../../../Carosel/Asset/Academic Structure.jpg';
 import Governance from '../../../Carosel/Asset/Presentation8.jpg';
 const AcademicStructure = () => {
   return (

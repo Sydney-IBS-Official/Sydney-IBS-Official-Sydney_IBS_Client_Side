@@ -2,7 +2,7 @@ import { faChevronRight, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import Governance from "../../../Carosel/Asset/Presentation8.jpg";
+import Governance from "../../../Carosel/Asset/Governance-structure.jpg";
 const LeadershipGovernence = () => {
 	return (
     <div className="">
@@ -37,7 +37,7 @@ const LeadershipGovernence = () => {
 
                   {/* Governance body details  */}
 
-                  <div className="-mt-10">
+                  <div className="lg:mt-10 mt-5">
                     <h1 className="text-xl px-3 font-bold  lg:mx-10 ">
                       <a href="#" className="text-primary">
                         Board of Trustees

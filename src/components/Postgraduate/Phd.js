@@ -26,7 +26,12 @@ const Phd = () => {
                     </Link>
                   </li>
                   <li>
-                    <p>Academic programs</p>
+                    <Link to="/future" className="font-semibold text-sky-700">
+                      Future students
+                    </Link>
+                  </li>
+                  <li>
+                    <p className="font-semibold">Academic programs</p>
                   </li>
                   <li>
                     <p className="text-black"> PhD</p>
@@ -82,20 +87,23 @@ const Phd = () => {
 
           {/* PhD Courses  */}
 
-          <div className="lg:mx-12 pb-10">
+          <div className="lg:mx-12  pb-10 md:px-3">
             {/* PhD Banking and Finance  */}
-            <div className="lg:flex bg-sky-700 shadow p-3 mb-5 gap-5 ">
-              <div className="">
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%] ">
                 <a href="/phdfinance">
                   <img
                     src={finance}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] w-full md:h-20 "
+                    className="lg:h-32 lg:w-[200px] w-full md:h-32 "
                   />
                 </a>
               </div>
               <div className="lg:w-[75%]">
-                <a href="/phdfinance" className="text-2xl text-white text-justify">
+                <a
+                  href="/phdfinance"
+                  className="text-2xl text-white text-justify"
+                >
                   Islamic Banking and Finance
                 </a>
                 <a href="/phdfinance">
@@ -119,13 +127,13 @@ const Phd = () => {
             </div>
 
             {/* PhD islamic economics  */}
-            <div className="lg:flex bg-sky-700 shadow p-3 mb-5 gap-5">
-              <div className="">
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%]">
                 <a href="/phdeconomics">
                   <img
                     src={economics}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] md:h-20 w-full"
+                    className="lg:h-32 lg:w-[200px] w-full md:h-32"
                   />
                 </a>
               </div>
@@ -151,13 +159,13 @@ const Phd = () => {
             </div>
 
             {/* PhD islamic business start here */}
-            <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%]">
                 <a href="/phdbusinesslaw">
                   <img
                     src={business}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] md:h-20 w-full"
+                    className="lg:h-32 lg:w-[200px] w-full md:h-32"
                   />
                 </a>
               </div>
@@ -184,13 +192,13 @@ const Phd = () => {
             </div>
 
             {/* PhD islamic Insurance */}
-            <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%]">
                 <a href="/phdinsurance">
                   <img
                     src={Insurance}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] md:h-20 h-52 w-full"
+                    className="lg:h-28 lg:w-[200px] w-full md:h-32"
                   />
                 </a>
               </div>
@@ -215,13 +223,13 @@ const Phd = () => {
             </div>
 
             {/* PhD islamic Management  */}
-            <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-              <div className="">
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%]">
                 <a href="/phdmanagement">
                   <img
                     src={Management}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] md:h-20 w-full"
+                    className="lg:h-32 lg:w-[200px] w-full md:h-32"
                   />
                 </a>
               </div>
@@ -246,13 +254,13 @@ const Phd = () => {
             </div>
 
             {/* PhD islamic IBusiness  */}
-            <div className="lg:flex bg-sky-700 p-3 mb-5 gap-5">
-              <div>
+            <div className="lg:flex md:flex bg-sky-700 shadow p-3 mb-5 gap-5 justify-center items-center">
+              <div className="md:w-3/6 lg:w-[20%]">
                 <a href="/phdIntbusiness">
                   <img
                     src={IBusiness}
                     alt=""
-                    className="lg:h-28 lg:w-[200px] md:h-20 w-full"
+                    className="lg:h-32 lg:w-[200px] w-full md:h-32"
                   />
                 </a>
               </div>
